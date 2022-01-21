@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import '@styles/globals.css';
+import Layout from '@components/Layout';
+import NextNProgress from 'nextjs-progressbar';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+  return (
+    <>
+      <NextNProgress color="#56c596" options={{ showSpinner: false }} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
+  );
 }
 
-export default MyApp
+export default App;
