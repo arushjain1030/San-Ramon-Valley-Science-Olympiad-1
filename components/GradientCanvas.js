@@ -8,7 +8,7 @@ export default function GradientCanvas() {
   });
 
   return (
-    <div className="relative h-48 max-w-5xl mx-auto">
+    <div className="relative max-w-5xl mx-auto h-28">
       <canvas
         className="absolute top-0 gradient-canvas"
         data-js-darken-top

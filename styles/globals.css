@@ -47,7 +47,7 @@
 
 @layer components {
   .container {
-    @apply max-w-3xl mx-auto;
+    @apply max-w-4xl mx-auto px-6;
   }
 
   .gradient-canvas {
@@ -60,5 +60,10 @@
 
   .accordion-item:not(:last-child) {
     @apply border-b border-gray-700;
+  }
+
+  .heading {
+    @apply text-7xl bg-clip-text text-transparent text-center;
+    background-image: url("https://media.gettyimages.com/vectors/abstract-green-technology-background-vector-id180873888");
   }
 }
