@@ -15,7 +15,7 @@ export default function Registration() {
           <div className="grid w-8 h-8 bg-gray-700 rounded-full place-items-center">
             <span className="text-lg font-medium text-gray-100">1</span>
           </div>
-          <p className="text-gray-300">
+          <p className="text-gray-400">
             I already have a team of 6 formed from one school.
           </p>
         </div>
@@ -26,13 +26,13 @@ export default function Registration() {
           marginWidth="0"
           className="flex-grow"
         />
-        <div className="flex items-center px-4 py-2 mt-12 text-red-300 bg-red-800 rounded-md gap-x-2">
+        <div className="flex items-center px-4 py-2 mt-12 text-red-300 bg-red-900 rounded-md gap-x-2">
           <RiErrorWarningLine className="w-6 h-6" />
           <p className="text-sm">
             If the form is not loading, please follow{' '}
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfbZ5d-hc0W7CFUxAdRuZv7DoApduASPIp70TnjW2_mVG3_KA/viewform?usp=sf_link"
-              className="font-medium text-red-200 hover:text-red-100"
+              className="text-red-200 transition-colors hover:text-red-100"
             >
               this link
             </a>
@@ -46,8 +46,8 @@ export default function Registration() {
           <div className="grid w-8 h-8 bg-gray-700 rounded-full place-items-center">
             <span className="text-lg font-medium text-gray-100">2</span>
           </div>
-          <p className="text-gray-300">
-            I currently don't have a full team of 6 from one school
+          <p className="text-gray-400">
+            I currently don't have a full team of 6 from one school.
           </p>
         </div>
         <iframe
@@ -57,13 +57,13 @@ export default function Registration() {
           marginWidth="0"
           className="flex-grow"
         />
-        <div className="flex items-center px-4 py-2 mt-12 text-red-300 bg-red-800 rounded-md gap-x-2">
+        <div className="flex items-center px-4 py-2 mt-12 text-red-300 bg-red-900 rounded-md gap-x-2">
           <RiErrorWarningLine className="w-6 h-6" />
           <p className="text-sm">
             If the form is not loading, please follow{' '}
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScJDSJPY7032XBGqrmRtPCRVTQorgJLnlYfBWgubOtFB_x0gA/viewform?embedded=true"
-              className="font-medium text-red-200 hover:text-red-100"
+              className="text-red-200 transition-colors hover:text-red-100"
             >
               this link
             </a>

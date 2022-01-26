@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="mt-32">
       <GradientCanvas />
-      <div className="flex items-center justify-between px-6 my-8 text-xs">
+      <div className="flex items-center justify-between max-w-5xl mx-auto my-8 text-xs">
         <p>&copy; 2022 San Ramon Valley Science Olympiad</p>
         <p>
           Developed by{' '}

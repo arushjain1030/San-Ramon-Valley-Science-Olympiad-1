@@ -114,9 +114,9 @@ export default function Header() {
           <Dialog.Trigger asChild>
             <button
               type="button"
-              className="grid px-2 py-2 text-gray-400 transition-colors bg-gray-800 rounded-full place-items-center hover:text-gray-200"
+              className="grid px-3 py-2 text-gray-300 transition-colors bg-gray-800 rounded-full place-items-center hover:text-gray-100"
             >
-              <FiMenu className="w-6 h-6" />
+              <FiMenu className="w-5 h-5" />
             </button>
           </Dialog.Trigger>
           <Dialog.Portal>
