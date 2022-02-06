@@ -146,10 +146,10 @@ export default function Header() {
                     <Accordion.Root type="single" collapsible>
                       <Accordion.Item value="item-1">
                         <Accordion.Trigger className="flex items-center justify-between w-full text-left menu-link">
-                          <p className="mr-96 sm:mr-0">Resources</p>
+                          <p className="mr-96 sm:mr-64 xs:mr-0">Resources</p>
                           <FiPlus className="w-6 h-6" />
                         </Accordion.Trigger>
-                        <Accordion.Content className="mb-6 ml-20">
+                        <Accordion.Content className="mb-6 ml-20 xs:ml-16">
                           <Link href="/resources/theory-event-resources">
                             <a className="block pb-3 text-sm">
                               Theory Event Resources

@@ -68,7 +68,7 @@
   }
 
   .menu-link {
-    @apply hover:text-gray-200 text-2xl font-medium text-gray-400 relative block py-6 px-12;
+    @apply hover:text-gray-200 text-2xl sm:text-xl font-medium text-gray-400 relative block py-6 px-12 xs:py-4;
   }
 
   .tabs-trigger[data-state="active"] {
