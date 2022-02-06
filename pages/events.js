@@ -24,7 +24,7 @@ export default function Events() {
           <ul className="text-xl">
             <li className="flex items-center justify-between my-8">
               <p>Word Problem Wizardry</p>
-              <Link href="/resources/theory-event-resources">
+              <Link href="/resources/theory-event-resources#word-problem-wizardry">
                 <a>
                   <FcIdea className="w-7 h-7" />
                 </a>
@@ -32,7 +32,7 @@ export default function Events() {
             </li>
             <li className="flex items-center justify-between my-8">
               <p>A Broader World</p>
-              <Link href="/resources/theory-event-resources">
+              <Link href="/resources/theory-event-resources#a-broader-world">
                 <a>
                   <FcIdea className="w-7 h-7" />
                 </a>
@@ -40,7 +40,7 @@ export default function Events() {
             </li>
             <li className="flex items-center justify-between my-8">
               <p>Don't Bug Me</p>
-              <Link href="/resources/theory-event-resources">
+              <Link href="/resources/theory-event-resources#dont-bug-me">
                 <a>
                   <FcIdea className="w-7 h-7" />
                 </a>
@@ -52,15 +52,15 @@ export default function Events() {
           <ul className="text-xl">
             <li className="flex items-center justify-between my-8">
               <p>Barge Building</p>
-              <Link href="/resources/theory-event-resources">
+              <Link href="/resources/build-event-resources#barge-building">
                 <a>
                   <FcIdea className="w-7 h-7" />
                 </a>
               </Link>
             </li>
             <li className="flex items-center justify-between my-8">
-              <p>Can Race</p>
-              <Link href="/resources/theory-event-resources">
+              <p>Tin Can Racer</p>
+              <Link href="/resources/build-event-resources#tin-can-racer">
                 <a>
                   <FcIdea className="w-7 h-7" />
                 </a>
@@ -68,7 +68,7 @@ export default function Events() {
             </li>
             <li className="flex items-center justify-between my-8">
               <p>Popsicle Stick Bridge</p>
-              <Link href="/resources/theory-event-resources">
+              <Link href="/resources/build-event-resources#popsicle-stick-bridge">
                 <a>
                   <FcIdea className="w-7 h-7" />
                 </a>

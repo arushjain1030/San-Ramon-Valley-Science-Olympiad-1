@@ -19,6 +19,10 @@
     src: url("/fonts/UntitledSansWeb-Medium.woff2") format("woff2");
   }
 
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-black text-gray-500;
   }

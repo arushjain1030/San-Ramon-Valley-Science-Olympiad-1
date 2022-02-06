@@ -36,7 +36,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="events">
+            <Link href="/events">
               <a>Events</a>
             </Link>
           </li>
@@ -133,7 +133,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="border-b border-gray-900">
-                    <Link href="events">
+                    <Link href="/events">
                       <a className="menu-link">Events</a>
                     </Link>
                   </li>
