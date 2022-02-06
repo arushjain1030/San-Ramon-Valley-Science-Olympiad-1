@@ -7,7 +7,7 @@ export const Accordion = forwardRef((props, forwardedRef) => {
     <AccordionPrimitive.Root
       {...itemProps}
       ref={forwardedRef}
-      className={`accordion bg-gray-900 border border-gray-700 rounded-md ${className}`}
+      className={`accordion bg-gray-900 border border-gray-800 rounded-md ${className}`}
     />
   );
 });
@@ -29,7 +29,7 @@ export const AccordionHeader = forwardRef((props, forwardedRef) => {
     <AccordionPrimitive.Header
       {...itemProps}
       ref={forwardedRef}
-      className={`accordion-header text-gray-100 ${className}`}
+      className={`accordion-header text-gray-400 hover:text-gray-300 transition-colors ${className}`}
     />
   );
 });

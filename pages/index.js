@@ -34,13 +34,17 @@ export default function Home() {
 
       <section>
         <Carousel
-          className="relative mt-36"
+          className="relative mt-36 sm:mt-12"
           autoplay
           pauseOnHover
           swiping
           wrapAround
         >
-          <img src="/images/carousel/DSC_0055_3_15.jpg" alt="Carousel" />
+          <img
+            src="/images/carousel/DSC_0055_3_15.jpg"
+            alt="Carousel"
+            className="object-contain"
+          />
           <Image
             src="/images/carousel/DSC_0084_15.jpg"
             alt="Carousel"
@@ -98,22 +102,22 @@ export default function Home() {
         </Carousel>
       </section>
 
-      <section className="flex justify-between max-w-3xl mx-auto mt-32 gap-x-12">
-        <div className="flex flex-col items-center flex-1 px-4 pt-6 pb-8 text-gray-400 transition-transform transform bg-gray-900 border-b-4 border-green-600 cursor-default hover:scale-105 gap-y-4">
+      <section className="flex justify-between max-w-3xl mx-auto mt-32 gap-x-12 sm:flex-col sm:gap-y-8 sm:mt-8">
+        <div className="flex flex-col items-center flex-1 px-4 pt-6 pb-8 text-gray-400 transition-transform transform bg-gray-900 border-b-4 border-green-600 cursor-default hover:scale-105 gap-y-4 sm:hover:scale-95 sm:scale-90">
           <GiBookCover className="w-12 h-12 text-gray-200" />
           <p className="text-center">
             Curriculum aligned with Common Core and Next generation science
             standards.
           </p>
         </div>
-        <div className="flex flex-col items-center flex-1 px-4 pt-6 pb-8 text-gray-400 transition-transform transform bg-gray-900 border-b-4 border-green-600 cursor-default hover:scale-105 gap-y-4">
+        <div className="flex flex-col items-center flex-1 px-4 pt-6 pb-8 text-gray-400 transition-transform transform bg-gray-900 border-b-4 border-green-600 cursor-default hover:scale-105 gap-y-4 sm:hover:scale-95 sm:scale-90">
           <IoPeopleCircle className="w-12 h-12 text-gray-200" />
           <p className="text-center">
             Promotes life skills such as organization, leadership, confidence,
             team work and more.
           </p>
         </div>
-        <div className="flex flex-col items-center flex-1 px-4 pt-6 pb-8 text-gray-400 transition-transform transform bg-gray-900 border-b-4 border-green-600 cursor-default hover:scale-105 gap-y-4">
+        <div className="flex flex-col items-center flex-1 px-4 pt-6 pb-8 text-gray-400 transition-transform transform bg-gray-900 border-b-4 border-green-600 cursor-default hover:scale-105 gap-y-4 sm:hover:scale-95 sm:scale-90">
           <GiHumanPyramid className="w-12 h-12 text-gray-200" />
           <p className="text-center">
             Work in a team of peers to be rewarded for the pursuit of scientific

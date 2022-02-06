@@ -146,7 +146,7 @@ export default function Header() {
                     <Accordion.Root type="single" collapsible>
                       <Accordion.Item value="item-1">
                         <Accordion.Trigger className="flex items-center justify-between w-full text-left menu-link">
-                          <p className="mr-96">Resources</p>
+                          <p className="mr-96 sm:mr-0">Resources</p>
                           <FiPlus className="w-6 h-6" />
                         </Accordion.Trigger>
                         <Accordion.Content className="mb-6 ml-20">
@@ -164,6 +164,12 @@ export default function Header() {
                             <a className="block pb-3 text-sm">
                               Instant Challenge Resources
                             </a>
+                          </Link>
+                          <Link href="/resources/coaches">
+                            <a className="block pb-3 text-sm">Coaches</a>
+                          </Link>
+                          <Link href="/resources/faq">
+                            <a className="block pb-3 text-sm">FAQ</a>
                           </Link>
                         </Accordion.Content>
                       </Accordion.Item>
