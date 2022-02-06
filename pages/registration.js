@@ -1,8 +1,13 @@
+import Head from 'next/head';
 import { RiErrorWarningLine } from 'react-icons/ri';
 
 export default function Registration() {
   return (
     <>
+      <Head>
+        <title>Registration — SRVSO</title>
+      </Head>
+
       <div className="mb-12">
         <h2 className="mb-4">Registration</h2>
         <p className="text-lg">
@@ -26,13 +31,13 @@ export default function Registration() {
           marginWidth="0"
           className="flex-grow"
         />
-        <div className="flex items-center px-4 py-2 mt-12 text-red-300 bg-red-900 rounded-md gap-x-2">
+        <div className="flex items-center px-4 py-2 mt-12 text-red-300 bg-red-800 rounded-md gap-x-2">
           <RiErrorWarningLine className="w-6 h-6" />
           <p className="text-sm">
             If the form is not loading, please follow{' '}
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfbZ5d-hc0W7CFUxAdRuZv7DoApduASPIp70TnjW2_mVG3_KA/viewform?usp=sf_link"
-              className="text-red-200 transition-colors hover:text-red-100"
+              className="font-medium text-red-300 transition-colors hover:text-red-200"
             >
               this link
             </a>
@@ -57,13 +62,13 @@ export default function Registration() {
           marginWidth="0"
           className="flex-grow"
         />
-        <div className="flex items-center px-4 py-2 mt-12 text-red-300 bg-red-900 rounded-md gap-x-2">
+        <div className="flex items-center px-4 py-2 mt-12 text-red-300 bg-red-800 rounded-md gap-x-2">
           <RiErrorWarningLine className="w-6 h-6" />
           <p className="text-sm">
             If the form is not loading, please follow{' '}
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScJDSJPY7032XBGqrmRtPCRVTQorgJLnlYfBWgubOtFB_x0gA/viewform?embedded=true"
-              className="text-red-200 transition-colors hover:text-red-100"
+              className="font-medium text-red-300 transition-colors hover:text-red-200"
             >
               this link
             </a>

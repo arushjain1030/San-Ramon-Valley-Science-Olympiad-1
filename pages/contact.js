@@ -1,6 +1,11 @@
+import Head from 'next/head';
+
 export default function Contact() {
   return (
     <>
+      <Head>
+        <title>Contact — SRVSO</title>
+      </Head>
       <div className="mb-12">
         <h2 className="mb-4">Contact</h2>
         <p className="text-lg">

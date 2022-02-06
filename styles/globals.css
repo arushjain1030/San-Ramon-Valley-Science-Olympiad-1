@@ -63,7 +63,15 @@
   }
 
   .heading {
-    @apply text-7xl bg-clip-text text-transparent text-center;
+    @apply text-8xl bg-clip-text text-transparent text-center;
     background-image: url("https://media.gettyimages.com/vectors/abstract-green-technology-background-vector-id180873888");
+  }
+
+  .menu-link {
+    @apply hover:text-gray-200 text-2xl font-medium text-gray-400 relative block py-6 px-12;
+  }
+
+  .tabs-trigger[data-state="active"] {
+    @apply border-b-2 border-green-600 mt-0.5 text-green-500;
   }
 }

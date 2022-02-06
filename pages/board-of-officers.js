@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import {
   Accordion,
   AccordionItem,
@@ -10,6 +11,9 @@ import { FiChevronDown } from 'react-icons/fi';
 export default function BoardOfOfficers() {
   return (
     <>
+      <Head>
+        <title>Board of Officers — SRVSO</title>
+      </Head>
       <div className="mb-12">
         <h2 className="mb-4">Officers</h2>
         <p className="text-lg">The board that makes SRVSO possible.</p>

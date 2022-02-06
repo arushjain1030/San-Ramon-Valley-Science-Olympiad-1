@@ -1,6 +1,11 @@
-export default function Contact() {
+import Head from 'next/head';
+
+export default function MeetingPresentationSlides() {
   return (
     <>
+      <Head>
+        <title>Meeting Presentation Slides — SRVSO</title>
+      </Head>
       <div className="mb-12">
         <h2 className="mb-4">Meeting Presentation Slides</h2>
         <p className="text-lg">
