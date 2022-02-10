@@ -12,7 +12,14 @@ export default function BuildEventResources() {
       </div>
 
       <div className="px-8 my-8 border border-gray-800 py-9" id="tin-can-racer">
-        <h3 className="text-2xl text-gray-400">Build Event Descriptions</h3>
+        <div className="flex items-center mb-6 gap-x-2">
+          <div className="grid w-8 h-8 bg-gray-700 rounded-full place-items-center">
+            <span className="pb-0.5 text-lg font-medium text-gray-100">
+              &#10031;
+            </span>
+          </div>
+          <p className="text-gray-400">Build Event Descriptions</p>
+        </div>
         <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
           <iframe
             title="Barge Building"
