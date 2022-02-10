@@ -9,8 +9,8 @@ export default function Custom404() {
       <div className="flex">
         <svg
           width="1840"
-          height="672"
-          viewBox="0 0 1840 672"
+          height="680"
+          viewBox="0 0 1840 680"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="relative bottom-44"
