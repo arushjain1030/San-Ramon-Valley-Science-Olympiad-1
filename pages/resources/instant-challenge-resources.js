@@ -9,7 +9,8 @@ export default function InstantChallengeResources() {
       <div className="mb-12">
         <h2 className="mb-4">Instant Challenge Resources</h2>
         <p className="text-lg">
-          The slide decks from our past informational meetings.
+          Examples of possible Instant Challenges (to be used in preparation for
+          SRVSO).
         </p>
       </div>
       <div className="flex flex-col w-full overflow-hidden h-96">

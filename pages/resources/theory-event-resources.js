@@ -9,7 +9,7 @@ export default function TheoryEventResources() {
       <div className="mb-12">
         <h2 className="mb-4">Theory Event Resources</h2>
         <p className="text-lg">
-          The slide decks from our past informational meetings.
+          More details for each SRVSO 2022 theory event.
         </p>
       </div>
       <div className="flex flex-col w-full overflow-hidden h-96">
