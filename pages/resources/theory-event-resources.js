@@ -6,6 +6,10 @@ export default function TheoryEventResources() {
     <>
       <Head>
         <title>Theory Event Resources — SRVSO</title>
+        <meta
+          name="description"
+          content="More details for each SRVSO 2022 theory event."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Theory Event Resources</h2>

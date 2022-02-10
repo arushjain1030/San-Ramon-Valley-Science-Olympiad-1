@@ -5,6 +5,10 @@ export default function BuildEventResources() {
     <>
       <Head>
         <title>Build Event Resources — SRVSO</title>
+        <meta
+          name="description"
+          content="More details for each SRVSO 2022 build event."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Build Event Resources</h2>

@@ -5,6 +5,10 @@ export default function Contact() {
     <>
       <Head>
         <title>Contact — SRVSO</title>
+        <meta
+          name="description"
+          content="Ask questions about the event and get in touch with the team."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Contact</h2>

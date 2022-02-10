@@ -5,6 +5,10 @@ export default function InstantChallengeResources() {
     <>
       <Head>
         <title>Instant Challenge Resources — SRVSO</title>
+        <meta
+          name="description"
+          content="Examples of possible Instant Challenges (to be used in preparation for SRVSO)."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Instant Challenge Resources</h2>

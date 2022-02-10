@@ -13,6 +13,10 @@ export default function BoardOfOfficers() {
     <>
       <Head>
         <title>Board of Officers — SRVSO</title>
+        <meta
+          name="description"
+          content="The board that makes SRVSO possible."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Officers</h2>

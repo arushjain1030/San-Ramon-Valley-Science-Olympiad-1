@@ -8,6 +8,10 @@ export default function Events() {
     <>
       <Head>
         <title>Events — SRVSO</title>
+        <meta
+          name="description"
+          content="The Theory and Build Events for the 2022 competition."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Events</h2>

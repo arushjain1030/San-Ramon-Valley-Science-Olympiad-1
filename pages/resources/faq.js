@@ -5,6 +5,10 @@ export default function FAQ() {
     <>
       <Head>
         <title>FAQ — SRVSO</title>
+        <meta
+          name="description"
+          content="A FAQ document containing questions that we often get."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">FAQ</h2>

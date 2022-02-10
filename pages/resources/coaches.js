@@ -5,6 +5,10 @@ export default function Coaches() {
     <>
       <Head>
         <title>Coaches — SRVSO</title>
+        <meta
+          name="description"
+          content="The recorded video and slide deck of the coach's seminar."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Coaches</h2>

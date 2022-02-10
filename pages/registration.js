@@ -6,6 +6,10 @@ export default function Registration() {
     <>
       <Head>
         <title>Registration — SRVSO</title>
+        <meta
+          name="description"
+          content="Registration opened on October 31, 2021 and has closed."
+        />
       </Head>
 
       <div className="mb-12">

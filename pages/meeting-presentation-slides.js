@@ -5,6 +5,10 @@ export default function MeetingPresentationSlides() {
     <>
       <Head>
         <title>Meeting Presentation Slides — SRVSO</title>
+        <meta
+          name="description"
+          content="The slide decks from our past informational meetings."
+        />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Meeting Presentation Slides</h2>
