@@ -21,6 +21,14 @@ export default function FAQ() {
           webkitallowfullscreen="true"
           className="flex-grow"
         />
+        <a
+          href="/documents/srvso-faq.pdf"
+          target="_blank"
+          className="mt-2 text-sm text-center underline"
+          rel="noopener noreferrer"
+        >
+          External link
+        </a>
       </div>
     </>
   );

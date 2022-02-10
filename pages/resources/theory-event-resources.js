@@ -36,6 +36,14 @@ export default function TheoryEventResources() {
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdkGN7YknkOjwx7xlwHQEtqMkUUuqqFlzaLsSLjyRnohRSyKg/viewform"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
         <div className="flex items-center px-4 py-2 mt-12 text-blue-300 bg-blue-800 rounded-md gap-x-2">
           <ImBook className="w-6 h-6" />
@@ -83,6 +91,14 @@ export default function TheoryEventResources() {
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeSNnlIJl9mpF5MVhoFUy0w7McVJHAalblN97rjNi0xKQy3Ew/viewform?usp=sf_link"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
         <div className="flex items-center px-4 py-2 mt-12 text-blue-300 bg-blue-800 rounded-md gap-x-2">
           <ImBook className="w-6 h-6" />
@@ -121,12 +137,20 @@ export default function TheoryEventResources() {
         <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
           <iframe
             title="Don't Bug Me"
-            src="/documents/dont-bug-me.pdf"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdydL90iGyjk5AmXKTAlodVfWb82R6n5t8Ms8nNu3TT9xAMqA/viewform"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdydL90iGyjk5AmXKTAlodVfWb82R6n5t8Ms8nNu3TT9xAMqA/viewform"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
         <div className="flex items-center px-4 py-2 mt-12 text-blue-300 bg-blue-800 rounded-md gap-x-2">
           <ImBook className="w-6 h-6" />

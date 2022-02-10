@@ -21,6 +21,14 @@ export default function Coaches() {
           webkitallowfullscreen="true"
           className="flex-grow border border-gray-700 rounded-md"
         />
+        <a
+          href="https://drive.google.com/file/d/1UGZPKF5Nh-BsCGHz3oY4P9EC3z595omi/preview"
+          target="_blank"
+          className="mt-2 text-sm text-center underline"
+          rel="noopener noreferrer"
+        >
+          External link
+        </a>
       </section>
       <section className="flex flex-col w-full px-1 py-6 mt-12 overflow-hidden bg-gray-200 rounded-md h-[700px]">
         <iframe
@@ -30,6 +38,14 @@ export default function Coaches() {
           marginWidth="0"
           className="flex-grow"
         />
+        <a
+          href="https://docs.google.com/presentation/d/1zrS4nwnWhDoL59i5AhhG8xdm6AiZ_XE3rOdBGZzP7lM/edit?usp=sharing"
+          target="_blank"
+          className="mt-2 text-sm text-center underline"
+          rel="noopener noreferrer"
+        >
+          External link
+        </a>
       </section>
     </>
   );

@@ -21,6 +21,14 @@ export default function MeetingPresentationSlides() {
           webkitallowfullscreen="true"
           className="flex-grow"
         />
+        <a
+          href="https://docs.google.com/presentation/d/e/2PACX-1vSaO1EsfG4m2G92mzTrgvUBZ4_S7Wqtx1XCwwp7ndQjm01KxH5J6ASryEF79r1urQhTLk5_j06HesVv/embed"
+          target="_blank"
+          className="mt-2 text-sm text-center underline"
+          rel="noopener noreferrer"
+        >
+          External link
+        </a>
       </div>
     </>
   );

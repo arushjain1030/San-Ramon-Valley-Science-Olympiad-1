@@ -37,6 +37,14 @@ export default function InstantChallengeResources() {
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vTzQI0xlbMn9m5siSqO-4jZGCsRN9h0Yfuileeb5e76Ar7wu6gfmfZ1BGeqZ5_NqPHrbu9qpG1TE1CX/pub?embedded=true"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
       </div>
 
@@ -63,6 +71,14 @@ export default function InstantChallengeResources() {
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vRfCtvQd0WUkWheMc4RwqFqMiJpLQath5KRidCRs4g4pOVKnF08Wy9bHRoxixQathC1zvG1j-1CCOde/pub?embedded=true"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
       </div>
     </>

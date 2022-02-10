@@ -20,6 +20,14 @@ export default function Contact() {
           marginWidth="0"
           className="flex-grow"
         />
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfOoND17uRMjH3uPnuSHqGGLfs9Qj5FIN83VZdj9L-N9BVIZw/viewform?embedded=true"
+          target="_blank"
+          className="mt-2 text-sm text-center underline"
+          rel="noopener noreferrer"
+        >
+          External link
+        </a>
       </section>
     </>
   );

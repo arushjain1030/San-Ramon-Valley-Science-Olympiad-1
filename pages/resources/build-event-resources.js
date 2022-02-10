@@ -29,6 +29,14 @@ export default function BuildEventResources() {
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vQtVR-1KoZv_R6dK8KKR-Els4JxJXMgIRz46L6qiD4bFAwtPI0yeb8Kax-E1nrycmNWX8reZyPb1hJh/pub"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
       </div>
 
@@ -56,6 +64,14 @@ export default function BuildEventResources() {
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://www.gvsu.edu/cms4/asset/AF5F8044-C1CA-D385-2E8007C14930B056/barge_building_activity_description.pdf"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
       </div>
 
@@ -80,6 +96,14 @@ export default function BuildEventResources() {
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://player.vimeo.com/video/79846665?h=d5c681bafe"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
       </div>
 
@@ -107,6 +131,14 @@ export default function BuildEventResources() {
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
+          <a
+            href="https://www.garrettsbridges.com/tag/science-olympiad"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
         </div>
       </div>
     </>
