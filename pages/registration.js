@@ -37,7 +37,9 @@ export default function Registration() {
             If the form is not loading, please follow{' '}
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfbZ5d-hc0W7CFUxAdRuZv7DoApduASPIp70TnjW2_mVG3_KA/viewform?usp=sf_link"
+              target="_blank"
               className="font-medium text-red-300 transition-colors hover:text-red-200"
+              rel="noopener noreferrer"
             >
               this link
             </a>
@@ -68,7 +70,9 @@ export default function Registration() {
             If the form is not loading, please follow{' '}
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScJDSJPY7032XBGqrmRtPCRVTQorgJLnlYfBWgubOtFB_x0gA/viewform?embedded=true"
+              target="_blank"
               className="font-medium text-red-300 transition-colors hover:text-red-200"
+              rel="noopener noreferrer"
             >
               this link
             </a>

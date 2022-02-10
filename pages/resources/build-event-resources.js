@@ -11,7 +11,7 @@ export default function BuildEventResources() {
         <p className="text-lg">More details for each SRVSO 2022 build event.</p>
       </div>
 
-      <div className="px-8 my-8 border border-gray-800 py-9" id="tin-can-racer">
+      <div className="px-8 my-8 border border-gray-800 py-9">
         <div className="flex items-center mb-6 gap-x-2">
           <div className="grid w-8 h-8 bg-gray-700 rounded-full place-items-center">
             <span className="pb-0.5 text-lg font-medium text-gray-100">
@@ -32,7 +32,10 @@ export default function BuildEventResources() {
         </div>
       </div>
 
-      <div className="px-8 my-8 border border-gray-800 py-9" id="tin-can-racer">
+      <div
+        className="px-8 my-8 border border-gray-800 py-9"
+        id="barge-building"
+      >
         <div className="flex items-center mb-6 gap-x-2">
           <div className="grid w-8 h-8 bg-gray-700 rounded-full place-items-center">
             <span className="text-lg font-medium text-gray-100">1</span>
@@ -80,7 +83,10 @@ export default function BuildEventResources() {
         </div>
       </div>
 
-      <div className="px-8 my-8 border border-gray-800 py-9" id="tin-can-racer">
+      <div
+        className="px-8 my-8 border border-gray-800 py-9"
+        id="popsicle-stick-bridge"
+      >
         <div className="flex items-center mb-6 gap-x-2">
           <div className="grid w-8 h-8 bg-gray-700 rounded-full place-items-center">
             <span className="text-lg font-medium text-gray-100">3</span>
