@@ -37,13 +37,13 @@ export default function Coaches() {
       <section className="flex flex-col w-full px-1 py-6 mt-12 overflow-hidden bg-gray-200 rounded-md h-[700px]">
         <iframe
           title="SRVSO Coach's Seminar Slideset"
-          src="https://docs.google.com/presentation/d/1zrS4nwnWhDoL59i5AhhG8xdm6AiZ_XE3rOdBGZzP7lM/edit?usp=sharing"
+          src="https://docs.google.com/presentation/d/1RlhH7Y_KTp0NB9L7Kzi3X6D8-Y7U4b3qcEBp8UCXPH8/edit?usp=sharing"
           marginHeight="0"
           marginWidth="0"
           className="flex-grow"
         />
         <a
-          href="https://docs.google.com/presentation/d/1zrS4nwnWhDoL59i5AhhG8xdm6AiZ_XE3rOdBGZzP7lM/edit?usp=sharing"
+          href="https://docs.google.com/presentation/d/1RlhH7Y_KTp0NB9L7Kzi3X6D8-Y7U4b3qcEBp8UCXPH8/edit?usp=sharing"
           target="_blank"
           className="mt-2 text-sm text-center underline"
           rel="noopener noreferrer"
