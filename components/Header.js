@@ -73,6 +73,11 @@ export default function Header() {
                       <a className="text-sm">Coaches</a>
                     </Link>
                   </li>
+                  <li className="py-2">
+                    <Link href="/resources/faq">
+                      <a className="text-sm">FAQ</a>
+                    </Link>
+                  </li>
                 </ul>
               </HoverCard.Content>
             </HoverCard.Root>
@@ -162,6 +167,9 @@ export default function Header() {
                           </Link>
                           <Link href="/resources/coaches">
                             <a className="block pb-3 text-sm">Coaches</a>
+                          </Link>
+                          <Link href="/resources/faq">
+                            <a className="block pb-3 text-sm">FAQ</a>
                           </Link>
                         </Accordion.Content>
                       </Accordion.Item>
