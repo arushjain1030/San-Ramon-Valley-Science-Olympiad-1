@@ -51,7 +51,7 @@ export default function BoardOfOfficers() {
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Associate Director</p>
-              <p className="font-medium text-gray-300">Arav Bhattacharta</p>
+              <p className="font-medium text-gray-300">Arav Bhattacharya</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Director of Finance</p>
