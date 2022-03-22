@@ -16,7 +16,7 @@ export default function FAQ() {
           This is a document containing questions that we often get.
         </p>
       </div>
-      {/* <div className="flex flex-col w-full overflow-hidden h-[800px]">
+      <div className="flex flex-col w-full overflow-hidden h-[800px]">
         <iframe
           title="SRVSO FAQ"
           src="/documents/srvso-faq.pdf"
@@ -33,7 +33,7 @@ export default function FAQ() {
         >
           External link
         </a>
-      </div> */}
+      </div>
     </>
   );
 }
