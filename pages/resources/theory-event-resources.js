@@ -18,6 +18,35 @@ export default function TheoryEventResources() {
         </p>
       </div>
 
+      <div className="px-8 my-8 border border-gray-800 py-9">
+        <div className="flex items-center mb-6 gap-x-2">
+          <div className="grid w-8 h-8 bg-gray-700 rounded-full place-items-center">
+            <span className="pb-0.5 text-lg font-medium text-gray-100">
+              &#10031;
+            </span>
+          </div>
+          <p className="text-gray-400">Theory Event Descriptions</p>
+        </div>
+        <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
+          <iframe
+            title="Theory Event Descriptions"
+            src="/documents/SRVSO Theory Event Descriptions.pdf"
+            className="flex-grow"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          />
+          <a
+            href="/documents/SRVSO Theory Event Descriptions.pdf"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
+        </div>
+      </div>
+
       <div
         className="px-8 my-8 border border-gray-800 py-9"
         id="word-problem-wizardry"
