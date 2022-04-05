@@ -7,13 +7,13 @@ export default function Layout({ children }) {
     <main className="flex flex-col min-h-screen">
       <Dialog.Root>
         <Dialog.Trigger asChild>
-          <div className="bg-green-900 py-1 px-6 text-center text-sm text-gray-200 cursor-pointer hover:text-gray-100 transition-colors">
-            Important information about upcoming 2022 Science Olympiad &rarr;
+          <div className="bg-green-900 py-1 px-6 text-center text-sm text-gray-200 cursor-pointer hover:text-gray-100 transition-colors sm:text-xs">
+            Important information about 2022 Olympiad &rarr;
           </div>
         </Dialog.Trigger>
         <Dialog.Portal>
-          <Dialog.Overlay className="bg-black opacity-90 fixed inset-0" />
-          <Dialog.Content className="bg-gray-900 px-8 py-7 rounded-lg fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-4xl">
+          <Dialog.Overlay className="bg-black opacity-80 fixed inset-0" />
+          <Dialog.Content className="bg-gray-900 px-8 py-7 rounded-lg fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-4xl w-full sm:scale-[0.78]">
             <Dialog.Title className="text-2xl mb-4">
               Dear SRVSO Coaches
             </Dialog.Title>
