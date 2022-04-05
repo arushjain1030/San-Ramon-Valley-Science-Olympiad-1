@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         </Dialog.Trigger>
         <Dialog.Portal>
           <Dialog.Overlay className="bg-black opacity-80 fixed inset-0" />
-          <Dialog.Content className="bg-gray-900 px-8 py-7 rounded-lg fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-4xl w-full sm:scale-[0.78]">
+          <Dialog.Content className="bg-gray-900 px-8 py-7 rounded-lg fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-4xl w-full sm:scale-75 sm:w-[134%]">
             <Dialog.Title className="text-2xl mb-4">
               Dear SRVSO Coaches
             </Dialog.Title>
