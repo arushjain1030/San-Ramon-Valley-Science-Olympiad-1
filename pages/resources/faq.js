@@ -19,14 +19,14 @@ export default function FAQ() {
       <div className="flex flex-col w-full overflow-hidden h-[800px]">
         <iframe
           title="SRVSO FAQ"
-          src="/documents/srvso-faq.pdf"
+          src="https://docs.google.com/document/d/14aM2sioacuNmCxU6v5XQ61o9XfUIK8p7dwkh-TwVJ-4"
           allowFullScreen="true"
           mozallowfullscreen="true"
           webkitallowfullscreen="true"
           className="flex-grow"
         />
         <a
-          href="/documents/srvso-faq.pdf"
+          href="https://docs.google.com/document/d/14aM2sioacuNmCxU6v5XQ61o9XfUIK8p7dwkh-TwVJ-4"
           target="_blank"
           className="mt-2 text-sm text-center underline"
           rel="noopener noreferrer"
