@@ -30,14 +30,14 @@ export default function TheoryEventResources() {
         <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
           <iframe
             title="Theory Event Descriptions"
-            src="/documents/SRVSO Theory Event Descriptions.pdf"
+            src="https://docs.google.com/document/d/1SVebmbxd1mizp9V3uD_UkIp2XkbWgKBeoFKZjjEIWNk"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
           <a
-            href="/documents/SRVSO Theory Event Descriptions.pdf"
+            href="https://docs.google.com/document/d/1SVebmbxd1mizp9V3uD_UkIp2XkbWgKBeoFKZjjEIWNk"
             target="_blank"
             className="mt-2 text-sm text-center underline"
             rel="noopener noreferrer"

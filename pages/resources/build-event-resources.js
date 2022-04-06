@@ -27,14 +27,14 @@ export default function BuildEventResources() {
         <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
           <iframe
             title="Build Event Descriptions"
-            src="/documents/SRVSO Build Event Descriptions.pdf"
+            src="https://docs.google.com/document/d/1m2xZoGhsJLra8yT-IC5vEmFG589PcHvxKQobaRe4EB8"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen
           />
           <a
-            href="/documents/SRVSO Build Event Descriptions.pdf"
+            href="https://docs.google.com/document/d/1m2xZoGhsJLra8yT-IC5vEmFG589PcHvxKQobaRe4EB8"
             target="_blank"
             className="mt-2 text-sm text-center underline"
             rel="noopener noreferrer"
