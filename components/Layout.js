@@ -29,7 +29,8 @@ export default function Layout({ children }) {
                 <li>Location — Windemere Ranch Middle School</li>
               </ul>
               <p className="mb-4">
-                A more detailed schedule will be released in the coming days.
+                A more detailed schedule has been released through email along
+                with other important information.
               </p>
               <p className="mb-8">
                 If you haven't completed the competition confirmation{' '}
