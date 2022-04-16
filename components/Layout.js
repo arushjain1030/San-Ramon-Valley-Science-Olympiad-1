@@ -7,17 +7,17 @@ export default function Layout({ children }) {
     <main className="flex flex-col min-h-screen">
       <Dialog.Root>
         <Dialog.Trigger asChild>
-          <div className="bg-green-900 py-1 px-6 text-center text-sm text-gray-200 cursor-pointer hover:text-gray-100 transition-colors sm:text-xs">
+          <div className="px-6 py-1 text-sm text-center text-gray-200 transition-colors bg-green-900 cursor-pointer hover:text-gray-100 sm:text-xs">
             Important information about 2022 Olympiad &rarr;
           </div>
         </Dialog.Trigger>
         <Dialog.Portal>
-          <Dialog.Overlay className="bg-black opacity-80 fixed inset-0" />
+          <Dialog.Overlay className="fixed inset-0 bg-black opacity-80" />
           <Dialog.Content className="bg-gray-900 px-8 py-7 rounded-lg fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-4xl w-full sm:scale-75 sm:w-[134%]">
-            <Dialog.Title className="text-2xl mb-4">
+            <Dialog.Title className="mb-4 text-2xl">
               Dear SRVSO Coaches
             </Dialog.Title>
-            <Dialog.Description className="text-gray-400 text-sm">
+            <Dialog.Description className="text-sm text-gray-400">
               <p className="mb-4">
                 Thank you for your continued involvement with the competition.
                 Here is some important information about our 2022 Science
@@ -26,7 +26,7 @@ export default function Layout({ children }) {
               <ul className="mb-4 font-medium">
                 <li>Date — 4/16/22</li>
                 <li>Time — 6:45am to 6:00pm</li>
-                <li>Location — in person, TBD</li>
+                <li>Location — Windemere Ranch Middle School</li>
               </ul>
               <p className="mb-4">
                 A more detailed schedule will be released in the coming days.
@@ -139,7 +139,7 @@ export default function Layout({ children }) {
                 </li>
               </ul>
             </Dialog.Description>
-            <Dialog.Close className="mt-10 text-red-500 hover:text-red-400 transition-colors">
+            <Dialog.Close className="mt-10 text-red-500 transition-colors hover:text-red-400">
               Close this message
             </Dialog.Close>
           </Dialog.Content>
