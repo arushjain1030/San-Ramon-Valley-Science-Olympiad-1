@@ -47,11 +47,11 @@ export default function BoardOfOfficers() {
           <AccordionContent>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Executive Director</p>
-              <p className="font-medium text-gray-300">Rahul Pothi Vinoth</p>
+              <p className="font-medium text-gray-300">Arav Bhattacharya</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Associate Director</p>
-              <p className="font-medium text-gray-300">Arav Bhattacharya</p>
+              <p className="font-medium text-gray-300">Sundar Subramanian</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Director of Finance</p>
@@ -88,8 +88,8 @@ export default function BoardOfOfficers() {
               <p className="font-medium text-gray-300">Pranav Hegde</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Technology</p>
-              <p className="font-medium text-gray-300">Anthony Kuang</p>
+              <p className="text-gray-400">Webmaster</p>
+              <p className="font-medium text-gray-300">Fatimah Hussain</p>
             </div>
           </AccordionContent>
         </AccordionItem>
