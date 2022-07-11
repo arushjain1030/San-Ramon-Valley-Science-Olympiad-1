@@ -7,13 +7,13 @@ export default function Contact() {
         <title>Contact — SRVSO</title>
         <meta
           name="description"
-          content="Ask questions about the event and get in touch with the team."
+          content="Ask questions about the olympiad and get in touch with the team."
         />
       </Head>
       <div className="mb-12">
         <h2 className="mb-4">Contact</h2>
         <p className="text-lg">
-          Ask questions about the event and get in touch with the team.
+          Ask questions about the olympiad and get in touch with the team.
         </p>
       </div>
       <section className="flex flex-col w-full px-1 py-6 overflow-hidden bg-gray-200 rounded-md h-96">
