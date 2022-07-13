@@ -5,7 +5,7 @@ import Footer from '@components/Footer';
 export default function Layout({ children }) {
   return (
     <main className="flex flex-col min-h-screen">
-      <Dialog.Root>
+      {/* <Dialog.Root>
         <Dialog.Trigger asChild>
           <div className="px-6 py-1 text-sm text-center text-gray-200 transition-colors bg-green-900 cursor-pointer hover:text-gray-100 sm:text-xs">
             Important information about 2022 Olympiad &rarr;
@@ -145,7 +145,7 @@ export default function Layout({ children }) {
             </Dialog.Close>
           </Dialog.Content>
         </Dialog.Portal>
-      </Dialog.Root>
+      </Dialog.Root> */}
       <Header />
       <div className="container flex-1">{children}</div>
       <Footer />
