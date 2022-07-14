@@ -88,7 +88,7 @@ export default function BoardOfOfficers() {
               <p className="font-medium text-gray-300">Pranav Hegde</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Webmaster</p>
+              <p className="text-gray-400">Director of Technology</p>
               <p className="font-medium text-gray-300">Fatimah Hussain</p>
             </div>
           </AccordionContent>
