@@ -73,15 +73,15 @@ export default function BoardOfOfficers() {
           <AccordionContent>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Director of Build Events</p>
-              <p className="font-medium text-gray-300">Harshdeep Singh</p>
+              <p className="font-medium text-gray-300">Praveer Balaka</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Director of Theory Events</p>
-              <p className="font-medium text-gray-300">Siddhanth Dala</p>
+              <p className="font-medium text-gray-300">Akshay Kannan</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Director of Instant Challenge</p>
-              <p className="font-medium text-gray-300">Kiruthika Marikumaran</p>
+              <p className="font-medium text-gray-300">Pranav Vudumula</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Administrative Secretary</p>
@@ -103,19 +103,19 @@ export default function BoardOfOfficers() {
           <AccordionContent>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Director of Build Events</p>
-              <p className="font-medium text-gray-300">Harshdeep Singh</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
               <p className="font-medium text-gray-300">Praveer Balaka</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Vrushank Prakash</p>
+              <p className="font-medium text-gray-300">Ayan Bhatia</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Pranav Vudumula</p>
+              <p className="font-medium text-gray-300">Ansh Gandhi</p>
+            </div>
+            <div className="flex justify-between py-2 text-sm">
+              <p className="text-gray-400">Event Head</p>
+              <p className="font-medium text-gray-300">Auron Bhattacharya</p>
             </div>
           </AccordionContent>
         </AccordionItem>
@@ -133,15 +133,15 @@ export default function BoardOfOfficers() {
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Prayrak Bajaj</p>
+              <p className="font-medium text-gray-300">Arush Jain</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Akshay Kannan</p>
+              <p className="font-medium text-gray-300">Megha Guntuku</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Samarth Jain</p>
+              <p className="font-medium text-gray-300">Ali Siddiqui</p>
             </div>
           </AccordionContent>
         </AccordionItem>
