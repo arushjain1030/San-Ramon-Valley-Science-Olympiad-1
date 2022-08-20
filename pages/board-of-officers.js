@@ -53,14 +53,6 @@ export default function BoardOfOfficers() {
               <p className="text-gray-400">Associate Director</p>
               <p className="font-medium text-gray-300">Sundar Subramanian</p>
             </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Finance</p>
-              <p className="font-medium text-gray-300">Sundar Subramanian</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Outreach</p>
-              <p className="font-medium text-gray-300">Matthew Wang</p>
-            </div>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
@@ -72,24 +64,16 @@ export default function BoardOfOfficers() {
           </AccordionHeader>
           <AccordionContent>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Build Events</p>
-              <p className="font-medium text-gray-300">Praveer Balaka</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Theory Events</p>
-              <p className="font-medium text-gray-300">Akshay Kannan</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Instant Challenge</p>
-              <p className="font-medium text-gray-300">Pranav Vudumula</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Administrative Secretary</p>
-              <p className="font-medium text-gray-300">Pranav Hegde</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Director of Technology</p>
               <p className="font-medium text-gray-300">Fatimah Hussain</p>
+            </div>
+            <div className="flex justify-between py-2 text-sm">
+              <p className="text-gray-400">Logistics Officer</p>
+              <p className="font-medium text-gray-300">Kiruthika Marikumaran</p>
+            </div>
+            <div className="flex justify-between py-2 text-sm">
+              <p className="text-gray-400">Communications Officer</p>
+              <p className="font-medium text-gray-300">Pranav Hegde</p>
             </div>
           </AccordionContent>
         </AccordionItem>
@@ -153,29 +137,17 @@ export default function BoardOfOfficers() {
             </AccordionTrigger>
           </AccordionHeader>
           <AccordionContent>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Instant Challenge</p>
-              <p className="font-medium text-gray-300">Kiruthika Marikumaran</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
+            {/* <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Event Head</p>
               <p className="font-medium text-gray-300">Adhya Akki</p>
-            </div>
+            </div> */}
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Event Head</p>
               <p className="font-medium text-gray-300">Adviti Aleti</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Aarav Manjunath</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Rimli Mitra</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Swastik Patel</p>
+              <p className="font-medium text-gray-300">Nikitha Bangalore</p>
             </div>
           </AccordionContent>
         </AccordionItem>

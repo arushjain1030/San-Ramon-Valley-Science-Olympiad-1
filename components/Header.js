@@ -35,17 +35,17 @@ export default function Header() {
               <a>Home</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/events">
               <a>Events</a>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link href="/registration">
               <a>Registration</a>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <HoverCard.Root openDelay={100} closeDelay={300}>
               <HoverCard.Trigger>
                 <span className="cursor-default">Resources</span>
@@ -81,17 +81,17 @@ export default function Header() {
                 </ul>
               </HoverCard.Content>
             </HoverCard.Root>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link href="/meeting-presentation-slides">
               <a>Meeting Presentation Slides</a>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link href="/contact">
               <a>Contact</a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/board-of-officers">
               <a>Board of Officers</a>
