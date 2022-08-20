@@ -132,25 +132,25 @@ export default function Header() {
                       <a className="menu-link">Home</a>
                     </Link>
                   </li>
-                  <li className="border-b border-gray-900">
+                  {/* <li className="border-b border-gray-900">
                     <Link href="/events">
                       <a className="menu-link">Events</a>
                     </Link>
-                  </li>
-                  <li className="border-b border-gray-900">
+                  </li> */}
+                  {/* <li className="border-b border-gray-900">
                     <Link href="/registration">
                       <a className="menu-link">Registration</a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="border-b border-gray-900">
                     <Accordion.Root type="single" collapsible>
                       <Accordion.Item value="item-1">
                         <Accordion.Trigger className="flex items-center justify-between w-full text-left menu-link">
-                          <p className="mr-96 sm:mr-64 xs:mr-0">Resources</p>
-                          <FiPlus className="w-6 h-6" />
+                          {/* <p className="mr-96 sm:mr-64 xs:mr-0">Resources</p>
+                          <FiPlus className="w-6 h-6" /> */}
                         </Accordion.Trigger>
                         <Accordion.Content className="mb-6 ml-20 xs:ml-16">
-                          <Link href="/resources/theory-event-resources">
+                          {/* <Link href="/resources/theory-event-resources">
                             <a className="block pb-3 text-sm">
                               Theory Event Resources
                             </a>
@@ -170,21 +170,21 @@ export default function Header() {
                           </Link>
                           <Link href="/resources/faq">
                             <a className="block pb-3 text-sm">FAQ</a>
-                          </Link>
+                          </Link> */}
                         </Accordion.Content>
                       </Accordion.Item>
                     </Accordion.Root>
                   </li>
-                  <li className="border-b border-gray-900">
+                  {/* <li className="border-b border-gray-900">
                     <Link href="/meeting-presentation-slides">
                       <a className="menu-link">Meeting Presentation Slides</a>
                     </Link>
-                  </li>
-                  <li className="border-b border-gray-900">
+                  </li> */}
+                  {/* <li className="border-b border-gray-900">
                     <Link href="/contact">
                       <a className="menu-link">Contact</a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/board-of-officers">
                       <a className="menu-link">Board of Officers</a>

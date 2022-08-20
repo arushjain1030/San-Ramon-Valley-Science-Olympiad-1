@@ -20,9 +20,13 @@ export default function Home() {
       <p className="mt-6 text-2xl text-center">est. 2018</p>
       <Link href="/registration">
         <a>
-          <Button className="mx-auto mt-20 sm:text-sm xs:text-xs">
+          <h2 className="mt-6 mb-4 text-2xl text-center">
+            {' '}
+            Keep an eye out for more updates on Information Night
+          </h2>
+          {/* <Button className="mx-auto mt-20 sm:text-sm xs:text-xs">
             Register for SRVSO 2022
-          </Button>
+          </Button> */}
         </a>
       </Link>
       <div className="flex max-w-3xl mx-auto mt-44 gap-x-6">
