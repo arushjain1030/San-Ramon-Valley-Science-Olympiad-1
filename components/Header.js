@@ -97,6 +97,11 @@ export default function Header() {
               <a>Board of Officers</a>
             </Link>
           </li>
+          <li>
+            <Link href="/past-olympiads">
+              <a>Past Olympiads</a>
+            </Link>
+          </li>
         </ul>
       </header>
 
@@ -190,6 +195,9 @@ export default function Header() {
                   <li>
                     <Link href="/board-of-officers">
                       <a className="menu-link">Board of Officers</a>
+                    </Link>
+                    <Link href="/past-olympiads">
+                      <a className="menu-link">Past Olympiads</a>
                     </Link>
                   </li>
                 </ul>
