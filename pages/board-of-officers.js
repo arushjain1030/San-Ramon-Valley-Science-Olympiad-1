@@ -32,7 +32,7 @@ export default function BoardOfOfficers() {
           </AccordionHeader>
           <AccordionContent>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Chair of the Board</p>
+              <p className="text-gray-400">Advisory Board</p>
               <p className="font-medium text-gray-300">Alagu Subramanian</p>
             </div>
           </AccordionContent>
@@ -64,12 +64,12 @@ export default function BoardOfOfficers() {
           </AccordionHeader>
           <AccordionContent>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Technology</p>
+              <p className="text-gray-400">Webmaster</p>
               <p className="font-medium text-gray-300">Fatimah Hussain</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Logistics Officer</p>
-              <p className="font-medium text-gray-300">Kiruthika Marikumaran</p>
+              <p className="font-medium text-gray-300">Pranav Vudumula</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
               <p className="text-gray-400">Communications Officer</p>
@@ -86,19 +86,19 @@ export default function BoardOfOfficers() {
           </AccordionHeader>
           <AccordionContent>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Build Events</p>
+              <p className="text-gray-400">Build Events Head</p>
               <p className="font-medium text-gray-300">Praveer Balaka</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
+              <p className="text-gray-400">Event Officer</p>
               <p className="font-medium text-gray-300">Ayan Bhatia</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
+              <p className="text-gray-400">Event Officer</p>
               <p className="font-medium text-gray-300">Ansh Gandhi</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
+              <p className="text-gray-400">Event Officer</p>
               <p className="font-medium text-gray-300">Auron Bhattacharya</p>
             </div>
           </AccordionContent>
@@ -112,19 +112,19 @@ export default function BoardOfOfficers() {
           </AccordionHeader>
           <AccordionContent>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Director of Theory Events</p>
-              <p className="font-medium text-gray-300">Siddhanth Dala</p>
+              <p className="text-gray-400">Theory Events Head</p>
+              <p className="font-medium text-gray-300">Akshay Kannan</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
-              <p className="font-medium text-gray-300">Arush Jain</p>
-            </div>
-            <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
+              <p className="text-gray-400">Event Officer</p>
               <p className="font-medium text-gray-300">Megha Guntuku</p>
             </div>
             <div className="flex justify-between py-2 text-sm">
-              <p className="text-gray-400">Event Head</p>
+              <p className="text-gray-400">Event Officer</p>
+              <p className="font-medium text-gray-300">Arush Jain</p>
+            </div>
+            <div className="flex justify-between py-2 text-sm">
+              <p className="text-gray-400">Event Officer</p>
               <p className="font-medium text-gray-300">Ali Siddiqui</p>
             </div>
           </AccordionContent>
