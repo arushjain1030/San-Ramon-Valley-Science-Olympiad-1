@@ -18,15 +18,15 @@ export default function Home() {
       </Head>
       <h1 className="mt-16 heading">San Ramon Valley Science Olympiad</h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
-      <Link href="/registration">
+      <Link href="https://docs.google.com/forms/d/1eszXCPCAZxLDC4H_jq0xiIpNnHBUppmZpwGBD_QQW9M/edit">
         <a>
-          <h2 className="mt-6 mb-4 text-2xl text-center">
+          {/* <h2 className="mt-6 mb-4 text-2xl text-center">
             {' '}
             Keep an eye out for more updates on Information Night!
-          </h2>
-          {/* <Button className="mx-auto mt-20 sm:text-sm xs:text-xs">
-            Register for SRVSO 2022
-          </Button> */}
+          </h2> */}
+          <Button className="mx-auto mt-20 sm:text-sm xs:text-xs">
+            Register for SRVSO 2023
+          </Button>
         </a>
       </Link>
       <div className="flex max-w-3xl mx-auto mt-44 gap-x-6">
