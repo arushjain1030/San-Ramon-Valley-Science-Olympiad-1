@@ -23,11 +23,11 @@ export default function PastOlympiads() {
       </div>
 
       <div className="mb-12">
-        <h2 className="mb-4">2022 Olympiad</h2>
+        {/* <h2 className="mb-4">2022 Olympiad</h2>
         <p className="mb-4 text-lg">
           The 4th annual SRVSO was held at Windemere Ranch Middle School in
           April 2022.
-        </p>
+        </p> */}
         <h3 className="text-lg">Images</h3>
         <Carousel
           className="relative mt-2 sm:mt-12"
@@ -43,6 +43,66 @@ export default function PastOlympiads() {
           />
           <Image
             src="/images/carousel/DSC_0084_15.jpg"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/1.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/2.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/3.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/4.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/5.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/6.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/7.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/8.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/9.png"
+            alt="Carousel"
+            layout="fill"
+            objectFit="contain"
+          />
+          <Image
+            src="/images/carousel/10.png"
             alt="Carousel"
             layout="fill"
             objectFit="contain"
@@ -69,7 +129,7 @@ export default function PastOlympiads() {
         </div>
       </div>
 
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <h2 className="mb-4">2021 Olympiad</h2>
         <p className="mb-4 text-lg">
           The 3rd annual SRVSO was held online in March 2021.
@@ -113,9 +173,9 @@ export default function PastOlympiads() {
             External link
           </a>
         </div>
-      </div>
+      </div> */}
 
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <h2 className="mb-4">2020 Olympiad</h2>
         <p className="mb-4 text-lg">
           The 2nd annual SRVSO was held online in May 2020.
@@ -159,9 +219,9 @@ export default function PastOlympiads() {
             External link
           </a>
         </div>
-      </div>
+      </div> */}
 
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <h2 className="mb-4">2019 Olympiad</h2>
         <p className="mb-4 text-lg">
           The 1st annual SRVSO was held at Dougherty Valley High School in April
@@ -245,7 +305,7 @@ export default function PastOlympiads() {
             Results
           </a>
         </h3>
-      </div>
+      </div> */}
     </>
   );
 }

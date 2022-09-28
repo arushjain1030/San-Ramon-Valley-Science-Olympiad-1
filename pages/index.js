@@ -16,7 +16,9 @@ export default function Home() {
           content="SRVSO provides students with the chance to explore the world of STEM in a competitive setting. Science Olympiad prepares the young generation for success in future years of middle school, high school, and beyond."
         />
       </Head>
-      <h1 className="mt-16 heading">San Ramon Valley Science Olympiad</h1>
+      <h1 className="mt-16 text-l heading">
+        San Ramon Valley Science Olympiad
+      </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
       <Link href="https://docs.google.com/forms/d/1eszXCPCAZxLDC4H_jq0xiIpNnHBUppmZpwGBD_QQW9M/edit">
         <a>
@@ -25,7 +27,7 @@ export default function Home() {
             Keep an eye out for more updates on Information Night!
           </h2> */}
           <Button className="mx-auto mt-20 sm:text-sm xs:text-xs">
-            Register for SRVSO 2023
+            Register for SRVSO 2023 Info Night
           </Button>
         </a>
       </Link>

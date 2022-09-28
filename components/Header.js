@@ -98,9 +98,9 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            {/* <Link href="/past-olympiads">
+            <Link href="/past-olympiads">
               <a>Past Olympiads</a>
-            </Link> */}
+            </Link>
           </li>
         </ul>
       </header>
@@ -198,9 +198,9 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    {/* <Link href="/past-olympiads">
+                    <Link href="/past-olympiads">
                       <a className="menu-link">Past Olympiads</a>
-                    </Link> */}
+                    </Link>
                   </li>
                 </ul>
               </Dialog.Content>
