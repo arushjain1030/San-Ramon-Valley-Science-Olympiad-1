@@ -102,6 +102,11 @@ export default function Header() {
               <a>Past Olympiads</a>
             </Link>
           </li>
+          <li>
+            <Link href="/info-night">
+              <a>Info Night Resources</a>
+            </Link>
+          </li>
         </ul>
       </header>
 
@@ -200,6 +205,11 @@ export default function Header() {
                   <li>
                     <Link href="/past-olympiads">
                       <a className="menu-link">Past Olympiads</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/info-night">
+                      <a className="menu-link">Info Night Resources</a>
                     </Link>
                   </li>
                 </ul>

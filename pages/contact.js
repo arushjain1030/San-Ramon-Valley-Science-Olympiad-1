@@ -19,7 +19,7 @@ export default function Contact() {
       <section className="flex flex-col w-full px-1 py-6 overflow-hidden bg-gray-200 rounded-md h-96">
         <iframe
           title="SRVSO Contact Form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfOoND17uRMjH3uPnuSHqGGLfs9Qj5FIN83VZdj9L-N9BVIZw/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdMl1wUgRXq5LkJJIl2r0SyB0k-uhXJpNM0Dcx7WOTAghGZng/viewform?embedded=true"
           marginHeight="0"
           marginWidth="0"
           className="flex-grow"
