@@ -11,7 +11,7 @@ export default function InfoNight() {
         <title>Info Night Resources — SRVSO</title>
         <meta
           name="description"
-          content="Here's where you can find all the relevant resources for SRVSO's Info Night 2022"
+          content="Here's where you can find all the relevant resources for SRVSO's Info Night 2022-23"
         />
       </Head>
 
@@ -19,7 +19,7 @@ export default function InfoNight() {
         <h2 className="mb-4">Info Night</h2>
         <p className="text-lg">
           Here's where you can find all the relevant resources for SRVSO's Info
-          Night 2022
+          Night 2022-23
         </p>
       </div>
 
@@ -35,7 +35,7 @@ export default function InfoNight() {
             allowFullScreen
           />
           <a
-            href="/documents/infonight.pdf"
+            href="https://docs.google.com/presentation/d/14TjB08xJupVYL2cfz9fUXnKDu9RP18IQSiAnPCPI_gc/edit?usp=sharing"
             target="_blank"
             className="mt-2 text-sm text-center underline"
             rel="noopener noreferrer"

@@ -93,18 +93,25 @@ export default function Header() {
             </Link>
           </li> */}
           <li>
-            <Link href="/board-of-officers">
-              <a>Board of Officers</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/past-olympiads">
-              <a>Past Olympiads</a>
+            <Link href="/register-now">
+              <a>REGISTER NOW</a>
             </Link>
           </li>
           <li>
             <Link href="/info-night">
               <a>Info Night Resources</a>
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/past-olympiads">
+              <a>Past Olympiads</a>
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/board-of-officers">
+              <a>Board of Officers</a>
             </Link>
           </li>
         </ul>
@@ -198,18 +205,24 @@ export default function Header() {
                     </Link>
                   </li> */}
                   <li>
-                    <Link href="/board-of-officers">
-                      <a className="menu-link">Board of Officers</a>
+                    <Link href="/register-now">
+                      <a className="menu-link">REGISTER NOW</a>
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/info-night">
+                      <a className="menu-link">Info Night Resources</a>
+                    </Link>
+                  </li>
+
                   <li>
                     <Link href="/past-olympiads">
                       <a className="menu-link">Past Olympiads</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/info-night">
-                      <a className="menu-link">Info Night Resources</a>
+                    <Link href="/board-of-officers">
+                      <a className="menu-link">Board of Officers</a>
                     </Link>
                   </li>
                 </ul>
