@@ -58,26 +58,6 @@ export default function RegisterNow() {
           External link
         </a>
       </section>
-
-      <h3 className="mt-6 text-lg">Info Night Recorded Presentation</h3>
-      <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
-        <iframe
-          title="Results"
-          src="/documents/recinfonight.mp4"
-          className="flex-grow"
-          frameBorder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowFullScreen
-        />
-        <a
-          href="/documents/recinfonight.mp4"
-          target="_blank"
-          className="mt-2 text-sm text-center underline"
-          rel="noopener noreferrer"
-        >
-          External link
-        </a>
-      </div>
     </>
   );
 }
