@@ -92,11 +92,11 @@ export default function Header() {
               <a>Contact</a>
             </Link>
           </li> */}
-          <li>
+          {/* <li>
             <Link href="/register-now">
               <a>REGISTER NOW</a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/info-night">
               <a>Info Night Resources</a>
@@ -204,11 +204,11 @@ export default function Header() {
                       <a className="menu-link">Contact</a>
                     </Link>
                   </li> */}
-                  <li>
+                  {/* <li>
                     <Link href="/register-now">
                       <a className="menu-link">REGISTER NOW</a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/info-night">
                       <a className="menu-link">Info Night Resources</a>

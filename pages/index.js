@@ -20,18 +20,18 @@ export default function Home() {
         San Ramon Valley Science Olympiad
       </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
-      <Link href="https://forms.gle/vniEi2iqqvzzzUH66">
-        <a>
-          {/* <h2 className="mt-6 mb-4 text-2xl text-center">
-            {' '}
-            Keep an eye out for more updates on Information Night!
-          </h2> */}
-          <Button className="mx-auto mt-20 text-lg">
+      {/* <Link href="https://forms.gle/vniEi2iqqvzzzUH66"> */}
+      <a>
+        <h2 className="mt-6 mb-4 text-2xl text-center">
+          {' '}
+          Registration is now closed. Please look out for SRVSO 2023!
+        </h2>
+        {/* <Button className="mx-auto mt-20 text-lg">
             Register for The SRVSO 2023 Now!!
-          </Button>
-        </a>
-      </Link>
-      <div className="flex max-w-3xl mx-auto mt-44 gap-x-6">
+          </Button> */}
+      </a>
+      {/* </Link> */}
+      <div className="flex max-w-3xl mx-auto mt-20 gap-x-6">
         <div className="w-3 bg-green-600" />
         <div>
           <h2 className="mb-4">Welcome to SRVSO!</h2>
