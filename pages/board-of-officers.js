@@ -15,7 +15,7 @@ export default function BoardOfOfficers() {
         <title>Board of Officers — SRVSO</title>
         <meta
           name="description"
-          content="The board that makes SRVSO possible."
+          content="Meet the officer board that makes SRVSO 22-23 possible."
         />
       </Head>
       <div className="mb-12">
