@@ -1,6 +1,6 @@
 // import Head from 'next/head';
 
-// export default function RegisterNow() {
+export default function RegisterNow() {
 //   return (
 //     <>
 //       <Head>
@@ -60,4 +60,5 @@
 //       </section>
 //     </>
 //   );
-// }
+  return null;
+}
