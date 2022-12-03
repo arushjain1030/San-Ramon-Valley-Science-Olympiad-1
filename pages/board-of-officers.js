@@ -54,8 +54,15 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/srvso-logo.png" />
-          <p className="p-5"> Arav... </p>
+          <img className="h-40 mt-4" src="/images/officers/arav.jpg" />
+          <p className="p-5">
+            {' '}
+            Arav is a senior at Dougherty Valley High School. An aspiring
+            mathematician, he is interested in enriching the quality of STEM
+            education in hopes of helping students find the beauty in these
+            subjects. Arav has been with SRVSO for 4 years and currently serves
+            as the Executive Director.{' '}
+          </p>
         </div>
 
         <div className="p-2 text-white rounded bg-lime-800">
@@ -111,8 +118,15 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/srvso-logo.png" />
-          <p className="p-5">Pranav...</p>
+          <img className="h-40 mt-4" src="/images/officers/pranavh.jpg" />
+          <p className="p-5">
+            Pranav Hegde is a current senior at Dougherty Valley High School
+            passionate about statistics and other fields of math. He enjoys
+            spreading interests in STEM through his leadership in the Olympiad.
+            He is a current officer of public outreach, and has also taken on
+            the positions of Associative Secretary and build committee officer
+            in the past few years.
+          </p>
         </div>
 
         <div className="p-2 text-white rounded bg-lime-800">
@@ -156,8 +170,13 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/srvso-logo.png" />
-          <p className="p-5">Ayan...</p>
+          <img className="h-40 mt-4" src="/images/officers/ayan.jpg" />
+          <p className="p-5">
+            Ayan is a senior at Dougherty Valley High School. He is an aspiring
+            engineering who loves to inspire a love of science in children at a
+            young age. Ayan is currently on the Build Event Board and has been
+            an SRVSO officer for one year.
+          </p>
         </div>
 
         <div className="p-2 text-white rounded bg-lime-800">
@@ -169,8 +188,13 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/srvso-logo.png" />
-          <p className="p-5">Ansh...</p>
+          <img className="h-40 mt-4" src="/images/officers/ansh.png" />
+          <p className="p-5">
+            Ansh is a Junior at Dougherty Valley High School. He is an aspiring
+            entrepreneur with a passion for business and improving the world.
+            Ansh has been with SRVSO for a year and currently serves as a Build
+            Team Officer.
+          </p>
         </div>
 
         <div className="p-2 text-white rounded bg-lime-800">
@@ -269,8 +293,14 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/srvso-logo.png" />
-          <p className="p-5">Nikitha...</p>
+          <img className="h-40 mt-4" src="/images/officers/nikitha.jpg" />
+          <p className="p-5">
+            Nikitha is a junior at Dougherty Valley High School. She is
+            currently exploring her options for possible careers, but is
+            passionate about giving younger students exposure to STEM related
+            activities. Nikitha has been with SRVSO for 1 year and currently
+            serves as the Event Head of Instant Challenge.
+          </p>
         </div>
         <div className="p-2 text-white rounded bg-lime-800">
           <h3>
