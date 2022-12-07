@@ -97,15 +97,15 @@ export default function Header() {
               <a>REGISTER NOW</a>
             </Link>
           </li> */}
-          <li>
+          {/* <li>
             <Link href="/info-night">
               <a>Info Night Resources</a>
             </Link>
-          </li>
+          </li> */}
 
           <li>
             <Link href="/resources">
-              <a>Other Resources</a>
+              <a>Resources</a>
             </Link>
           </li>
 
@@ -215,15 +215,15 @@ export default function Header() {
                       <a className="menu-link">REGISTER NOW</a>
                     </Link>
                   </li> */}
-                  <li>
+                  {/* <li>
                     <Link href="/info-night">
                       <a className="menu-link">Info Night Resources</a>
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li>
                     <Link href="/resources">
-                      <a className="menu-link">Other Resources</a>
+                      <a className="menu-link">Resources</a>
                     </Link>
                   </li>
 
