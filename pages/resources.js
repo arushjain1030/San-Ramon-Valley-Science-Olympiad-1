@@ -122,6 +122,26 @@ export default function InfoNight() {
             External link
           </a>
         </div>
+
+        <h3 className="mt-6 text-lg">Build Binder Layout</h3>
+        <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
+          <iframe
+            title="Results"
+            src="/documents/binder.pdf"
+            className="flex-grow"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          />
+          <a
+            href="https://docs.google.com/document/d/10cD0wL1Ghy0SRou4Y7jIUhFyDVVq7-d9W4ytDCK_h0k/edit?usp=sharing"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
+        </div>
         {/* <h2 className="mb-4">2022 Olympiad</h2>
         <p className="mb-4 text-lg">
           The 4th annual SRVSO was held at Windemere Ranch Middle School in
