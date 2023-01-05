@@ -23,11 +23,70 @@ export default function InfoNight() {
       </div>
 
       <div className="mb-12">
-        <h3 className="mt-6 text-lg">Coach Seminar Slideshow</h3>
+        <h3 className="mt-6 text-lg">Coach Seminar Recording</h3>
+        <div className="flex flex-col w-full mt-8 h-3/4">
+          <iframe
+            src="https://www.youtube.com/embed/2Jkff4GjY-Y"
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+            title="video"
+          />
+
+          <a
+            href="https://drive.google.com/file/d/1g1rt8C4-e0GHijLCVvbOugPEiiJflWHS/view?usp=sharing"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
+        </div>
+
+        {/* <h3 className="mt-6 text-lg">Coach Seminar Questions Recording</h3>
+        <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
+          <iframe
+            title="Coach Seminar Recording"
+            src="documents/coachseminarrecordingpt2.mp4"
+            className="flex-grow"
+            frameBorder="0"
+            allow="fullscreen; picture-in-picture"
+            allowFullScreen
+          />
+          <a
+            href="https://drive.google.com/file/d/1g1rt8C4-e0GHijLCVvbOugPEiiJflWHS/view?usp=sharing"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
+        </div> */}
+
+        {/* <h3 className="mt-6 text-lg">Coach Seminar Recording</h3>
         <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
           <iframe
             title="Results"
-            src="/documents/coachseminar.pdf"
+            src="/documents/coachseminarrecording.mp4"
+            className="flex-grow"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          />
+          <a
+            href="https://drive.google.com/file/d/1g1rt8C4-e0GHijLCVvbOugPEiiJflWHS/view?usp=sharing"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
+        </div> */}
+        <h3 className="mt-6 text-lg">Coach Seminar Slideshow</h3>
+        <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
+          <iframe
+            title="Coach Seminar Slideshow"
+            src="https://docs.google.com/presentation/d/1BWCf6aSb2jhby0JQZwUL7Eg-mLxUeXgCFBawQNAn7zg/edit"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
@@ -44,10 +103,10 @@ export default function InfoNight() {
         </div>
 
         <h3 className="mt-6 text-lg">Build Event Procedures</h3>
-        <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
+        <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
           <iframe
-            title="Results"
-            src="/documents/buildevent.pdf"
+            title="Build Event Procedures"
+            src="https://docs.google.com/document/d/1lQpYZ7lNUq0EOwuhcM06zo73lumJ5suv4ty1K6Uwjn4/edit"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
@@ -64,10 +123,10 @@ export default function InfoNight() {
         </div>
 
         <h3 className="mt-6 text-lg">Instant Challenge</h3>
-        <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
+        <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
           <iframe
-            title="Results"
-            src="/documents/instantc.pdf"
+            title="Instant Challenge"
+            src="https://docs.google.com/document/d/1xHNXYC7u9aARrfY0obKJ8XoHKp6fGvVsrNybgoNfvg0/edit"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
@@ -84,10 +143,10 @@ export default function InfoNight() {
         </div>
 
         <h3 className="mt-6 text-lg">100th Floor Cathedral</h3>
-        <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
+        <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
           <iframe
-            title="Results"
-            src="/documents/floorcath.pdf"
+            title="100th Floor Cathedral"
+            src="https://docs.google.com/document/d/1Pf-RAQqcGTdDNEYSTXhaB-q5rDVVDj2fcLgeiMGsx5E/edit"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
@@ -107,7 +166,7 @@ export default function InfoNight() {
         <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
           <iframe
             title="Results"
-            src="/documents/theorywork.pdf"
+            src="https://docs.google.com/document/d/10qw43wElrUTeb-d-ayywS1f-X7KOXPlhpgVqx16Ls6A/edit"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
@@ -127,7 +186,7 @@ export default function InfoNight() {
         <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
           <iframe
             title="Results"
-            src="/documents/binder.pdf"
+            src="https://docs.google.com/document/d/10cD0wL1Ghy0SRou4Y7jIUhFyDVVq7-d9W4ytDCK_h0k/edit?usp=sharing"
             className="flex-grow"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
