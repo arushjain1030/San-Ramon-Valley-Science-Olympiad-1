@@ -45,43 +45,7 @@ export default function Header() {
               <a>Registration</a>
             </Link>
           </li> */}
-          {/* <li>
-            <HoverCard.Root openDelay={100} closeDelay={300}>
-              <HoverCard.Trigger>
-                <span className="cursor-default">Resources</span>
-              </HoverCard.Trigger>
-              <HoverCard.Content className="px-6 py-2 mt-3 bg-black border border-gray-800 rounded-md bg-opacity-95 backdrop-blur-xl">
-                <HoverCard.Arrow className="relative text-gray-700 fill-current" />
-                <ul>
-                  <li className="py-2">
-                    <Link href="/resources/theory-event-resources">
-                      <a className="text-sm">Theory Event Resources</a>
-                    </Link>
-                  </li>
-                  <li className="py-2">
-                    <Link href="/resources/build-event-resources">
-                      <a className="text-sm">Build Event Resources</a>
-                    </Link>
-                  </li>
-                  <li className="py-2">
-                    <Link href="/resources/instant-challenge-resources">
-                      <a className="text-sm">Instant Challenge Resources</a>
-                    </Link>
-                  </li>
-                  <li className="py-2">
-                    <Link href="/resources/coaches">
-                      <a className="text-sm">Coaches</a>
-                    </Link>
-                  </li>
-                  <li className="py-2">
-                    <Link href="/resources/faq">
-                      <a className="text-sm">FAQ</a>
-                    </Link>
-                  </li>
-                </ul>
-              </HoverCard.Content>
-            </HoverCard.Root>
-          </li> */}
+
           {/* <li>
             <Link href="/meeting-presentation-slides">
               <a>Meeting Presentation Slides</a>
@@ -104,9 +68,46 @@ export default function Header() {
           </li> */}
 
           <li>
-            <Link href="/resources">
-              <a>Resources</a>
-            </Link>
+            <HoverCard.Root openDelay={100} closeDelay={300}>
+              <HoverCard.Trigger>
+                <span className="cursor-default">Resources</span>
+              </HoverCard.Trigger>
+              <HoverCard.Content className="px-6 py-2 mt-3 bg-black border border-gray-800 rounded-md bg-opacity-95 backdrop-blur-xl">
+                <HoverCard.Arrow className="relative text-gray-700 fill-current" />
+                <ul>
+                  <li className="py-2">
+                    <Link href="/resources/coach-seminar-resources">
+                      <a className="text-sm">Coach Seminar Resources</a>
+                    </Link>
+                  </li>
+                  <li className="py-2">
+                    <Link href="/resources/theory-event-resources">
+                      <a className="text-sm">Theory Event Resources</a>
+                    </Link>
+                  </li>
+                  <li className="py-2">
+                    <Link href="/resources/build-event-resources">
+                      <a className="text-sm">Build Event Resources</a>
+                    </Link>
+                  </li>
+                  <li className="py-2">
+                    <Link href="/resources/instant-challenge-resources">
+                      <a className="text-sm">Instant Challenge Resources</a>
+                    </Link>
+                  </li>
+                  {/* <li className="py-2">
+                    <Link href="/resources/coaches">
+                      <a className="text-sm">Coaches</a>
+                    </Link>
+                  </li>
+                  <li className="py-2">
+                    <Link href="/resources/faq">
+                      <a className="text-sm">FAQ</a>
+                    </Link>
+                  </li> */}
+                </ul>
+              </HoverCard.Content>
+            </HoverCard.Root>
           </li>
 
           <li>
@@ -159,45 +160,11 @@ export default function Header() {
                     <Link href="/events">
                       <a className="menu-link">Events</a>
                     </Link>
-                  </li> 
-                   <li className="border-b border-gray-900">
+                  </li>
+                  <li className="border-b border-gray-900">
                     <Link href="/registration">
                       <a className="menu-link">Registration</a>
                     </Link>
-                  </li> */}
-                  {/* <li className="border-b border-gray-900">
-                    <Accordion.Root type="single" collapsible>
-                      <Accordion.Item value="item-1">
-                        <Accordion.Trigger className="flex items-center justify-between w-full text-left menu-link">
-                           <p className="mr-96 sm:mr-64 xs:mr-0">Resources</p>
-                          <FiPlus className="w-6 h-6" /> 
-                        </Accordion.Trigger>
-                         <Accordion.Content className="mb-6 ml-20 xs:ml-16">
-                           <Link href="/resources/theory-event-resources">
-                            <a className="block pb-3 text-sm">
-                              Theory Event Resources
-                            </a>
-                          </Link>
-                          <Link href="/resources/build-event-resources">
-                            <a className="block pb-3 text-sm">
-                              Build Event Resources
-                            </a>
-                          </Link>
-                          <Link href="/resources/instant-challenge-resources">
-                            <a className="block pb-3 text-sm">
-                              Instant Challenge Resources
-                            </a>
-                          </Link>
-                          <Link href="/resources/coaches">
-                            <a className="block pb-3 text-sm">Coaches</a>
-                          </Link>
-                          <Link href="/resources/faq">
-                            <a className="block pb-3 text-sm">FAQ</a>
-                          </Link> 
-                        </Accordion.Content>
-                      
-                      </Accordion.Item>
-                    </Accordion.Root>
                   </li> */}
 
                   {/* <li className="border-b border-gray-900">
@@ -221,10 +188,37 @@ export default function Header() {
                     </Link>
                   </li> */}
 
-                  <li>
-                    <Link href="/resources">
-                      <a className="menu-link">Resources</a>
-                    </Link>
+                  <li className="border-b border-gray-900">
+                    <Accordion.Root type="single" collapsible>
+                      <Accordion.Item value="item-1">
+                        <Accordion.Trigger className="flex items-center justify-between w-full text-left menu-link">
+                          <p className="mr-96 sm:mr-64 xs:mr-0">Resources</p>
+                          <FiPlus className="w-6 h-6" />
+                        </Accordion.Trigger>
+                        <Accordion.Content className="mb-6 ml-20 xs:ml-16">
+                          <Link href="/resources/coach-seminar-resources">
+                            <a className="block pb-3 text-sm">
+                              Coach Seminar Resources
+                            </a>
+                          </Link>
+                          <Link href="/resources/theory-event-resources">
+                            <a className="block pb-3 text-sm">
+                              Theory Event Resources
+                            </a>
+                          </Link>
+                          <Link href="/resources/build-event-resources">
+                            <a className="block pb-3 text-sm">
+                              Build Event Resources
+                            </a>
+                          </Link>
+                          <Link href="/resources/instant-challenge-resources">
+                            <a className="block pb-3 text-sm">
+                              Instant Challenge Resources
+                            </a>
+                          </Link>
+                        </Accordion.Content>
+                      </Accordion.Item>
+                    </Accordion.Root>
                   </li>
 
                   <li>
