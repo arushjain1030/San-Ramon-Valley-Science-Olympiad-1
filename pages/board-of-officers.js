@@ -138,7 +138,7 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/pranavv.jpg" />
+          <img className="h-40 mt-4" src="/images/officers/pranavv.jpg" />
           <p className="p-5">
             Pranav is a Senior at Dougherty Valley High School. He is passionate
             about bringing STEM opportunities to all kids and plans to pursue
@@ -212,7 +212,12 @@ export default function BoardOfOfficers() {
 
         <div className="flex items-center text-white">
           <img className="h-40 mt-4" src="/images/srvso-logo.png" />
-          <p className="p-5">Auron...</p>
+          <p className="p-5">
+            Auron is a first year member of the SRVSO in the build committee.
+            Auron is excited to be working with the rest of the Science Olympiad
+            team to get elementary-age kids interested in different fields of
+            science.
+          </p>
         </div>
 
         <h2 className="pt-10"> Theory Events Committee </h2>
@@ -283,7 +288,7 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/ali.jpg" />
+          <img className="h-40 mt-4" src="/images/officers/ali.jpg" />
           <p className="p-5">DVSD Var Debate Team 3303S</p>
         </div>
 
