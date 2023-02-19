@@ -44,6 +44,26 @@ export default function InstantChallengeResources() {
           </a>
         </div>
 
+        <h3 className="mt-6 text-lg">Going Fishing</h3>
+        <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
+          <iframe
+            title="Instant Challenge"
+            src="https://docs.google.com/document/d/17nO3TO291FpzHsdf-fnmNDMZ6JdJ4x4LtdwZZc0v1N8/edit?usp=sharing"
+            className="flex-grow"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          />
+          <a
+            href="https://docs.google.com/document/d/17nO3TO291FpzHsdf-fnmNDMZ6JdJ4x4LtdwZZc0v1N8/edit?usp=sharing"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
+        </div>
+
         <h3 className="mt-6 text-lg">100th Floor Cathedral</h3>
         <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
           <iframe
