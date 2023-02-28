@@ -211,7 +211,7 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/srvso-logo.png" />
+          <img className="h-40 mt-4" src="/images/auron.png" />
           <p className="p-5">
             Auron is a first year member of the SRVSO in the build committee.
             Auron is excited to be working with the rest of the Science Olympiad
