@@ -279,19 +279,6 @@ export default function BoardOfOfficers() {
           </p>
         </div>
 
-//         <div className="p-2 text-white rounded bg-lime-800">
-//           <h3>
-//             {' '}
-//             <b>Ali Siddiqui</b>
-//           </h3>
-//           <p>Event Officer</p>
-//         </div>
-
-//         <div className="flex items-center text-white">
-//           <img className="h-40 mt-4" src="/images/officers/ali.jpg" />
-//           <p className="p-5">DVSD Var Debate Team 3303S</p>
-//         </div>
-
         <h2 className="pt-10"> Instant Challenge Committee </h2>
 
         <div className="p-2 text-white rounded bg-lime-800">
