@@ -24,7 +24,7 @@ export default function Home() {
       <a>
         <h2 className="mt-6 mb-4 text-2xl text-center">
           {' '}
-          Registration is now closed. Please look out for SRVSO 2023-2024!
+          March 6th @ 8:30 PM - Mandatory Pre-Olympiad Meeting for coaches! Zoom link to come soon!
         </h2>
         {/* <Button className="mx-auto mt-20 text-lg">
             Register for The SRVSO 2023 Now!!
