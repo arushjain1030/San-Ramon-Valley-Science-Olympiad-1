@@ -23,6 +23,26 @@ export default function CoachSeminarResources() {
         </p>
       </div>
 
+      <h3 className="mt-6 text-lg">Ongoing Revision Document</h3>
+      <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
+        <iframe
+          title="100th Floor Cathedral"
+          src="https://docs.google.com/document/d/1kGKMLO_IFfjuofyyMt6gYXHjWJqPwu8w02fOBDvqNS8/edit"
+          className="flex-grow"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+        />
+        <a
+          href="https://docs.google.com/document/d/1kGKMLO_IFfjuofyyMt6gYXHjWJqPwu8w02fOBDvqNS8/edit"
+          target="_blank"
+          className="mt-2 text-sm text-center underline"
+          rel="noopener noreferrer"
+        >
+          External link
+        </a>
+      </div>
+
       <div className="mb-12">
         <h3 className="mt-6 text-lg">Coach Seminar Recording</h3>
         <div className="flex flex-col w-full mt-8 h-3/4">
