@@ -76,6 +76,13 @@ export default function Header() {
                 <HoverCard.Arrow className="relative text-gray-700 fill-current" />
                 <ul>
                   <li className="py-2">
+                    <Link href="/resources/olympiad-logistics-resources">
+                      <a className="text-sm">
+                        Olympiad Logistics and FAQ Resources
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="py-2">
                     <Link href="/resources/coach-seminar-resources">
                       <a className="text-sm">Coach Seminar Resources</a>
                     </Link>
@@ -196,6 +203,11 @@ export default function Header() {
                           <FiPlus className="w-6 h-6" />
                         </Accordion.Trigger>
                         <Accordion.Content className="mb-6 ml-20 xs:ml-16">
+                          <Link href="/resources/olympiad-logistics-resources">
+                            <a className="block pb-3 text-sm">
+                              Olympiad Logistics and FAQ Resources
+                            </a>
+                          </Link>
                           <Link href="/resources/coach-seminar-resources">
                             <a className="block pb-3 text-sm">
                               Coach Seminar Resources
@@ -240,4 +252,3 @@ export default function Header() {
     </>
   );
 }
-
