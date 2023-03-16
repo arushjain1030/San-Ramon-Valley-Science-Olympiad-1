@@ -22,6 +22,26 @@ export default function OlympiadLogisticsResources() {
           for SRVSO 2022-23
         </p>
       </div>
+    
+    <h3 className="mt-6 text-lg">Schedule</h3>
+        <div className="flex flex-col w-full mt-8 overflow-hidden h-96">
+          <iframe
+            title="Schedule"
+            src="https://docs.google.com/spreadsheets/d/1Z-uGld7e6yOm4U3v2AACoshEFpRzQZmNpYuP8IaYZac/edit"
+            className="flex-grow"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          />
+          <a
+            href="https://docs.google.com/spreadsheets/d/1Z-uGld7e6yOm4U3v2AACoshEFpRzQZmNpYuP8IaYZac/edit"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
+        </div>
 
       <div className="mb-12">
         <h3 className="mt-6 text-lg">FAQ Document</h3>
