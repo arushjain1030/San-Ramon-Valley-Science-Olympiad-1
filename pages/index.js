@@ -28,7 +28,7 @@ export default function Home() {
           </Button> */} 
       </a>
       {/* </Link> */}
-      <div className="flex max-w-3xl mx-auto mt-20 gap-x-6">
+      <div className="flex max-w-3xl mx-auto mt-20 gap-x-3">
         <div className="w-3 bg-green-600" />
         <div>
           <h2 className="mb-4">Welcome to SRVSO!</h2>
