@@ -43,7 +43,7 @@ export default function Home() {
 
       <section>
         <Carousel
-          className="relative mt-36 sm:mt-12"
+          className="relative mt-36 sm:mt-10"
           autoplay
           pauseOnHover
           swiping
