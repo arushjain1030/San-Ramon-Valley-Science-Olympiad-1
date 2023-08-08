@@ -21,11 +21,8 @@ export default function Home() {
       </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
       {/* <Link href="https://forms.gle/vniEi2iqqvzzzUH66"> */}
-      {/*<a>
-        <h2 className="mt-6 mb-4 text-2xl text-center">
-          {' '}
-          March 6th @ 8:30 PM - Mandatory Pre-Olympiad Meeting for coaches! Zoom link to come soon!
-        </h2>
+      <a>
+        {/*
          <Button className="mx-auto mt-20 text-lg">
             Register for The SRVSO 2023 Now!!
           </Button> */} 
