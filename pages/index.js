@@ -31,7 +31,7 @@ export default function Home() {
       <div className="flex max-w-3xl mx-auto mt-20 gap-x-6">
         <div className="w-3 bg-green-600" />
         <div>
-          <h2 className="mb-4">Welcome to SRVSO!</h2>
+          <h2 className="mb-4">Welcome to SRVSO!</h1>
           <p className="leading-relaxed">
             SRVSO provides students with the chance to explore the world of STEM
             in a competitive setting. Science Olympiad prepares the young
