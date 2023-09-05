@@ -233,7 +233,7 @@ export default function Header() {
                     </Accordion.Root>
                   </li>
 
-                  <li className="border-b border-gray-900">
+                  <li>
                     <Link href="/past-olympiads">
                       <a className="menu-link">Past Olympiads</a>
                     </Link>
