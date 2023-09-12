@@ -25,7 +25,7 @@ export default function Home() {
         {/*
          <Button className="mx-auto mt-20 text-lg">
             Register for The SRVSO 2023 Now!!
-          </Button> */} 
+          </Button> */}
       </a>
       {/* </Link> */}
       <div className="flex max-w-3xl mx-auto mt-20 gap-x-3">
