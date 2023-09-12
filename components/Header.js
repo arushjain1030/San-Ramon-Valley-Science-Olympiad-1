@@ -67,7 +67,7 @@ export default function Header() {
             </Link>
           </li> */}
 
-          <li>
+          {/* <li>
             <HoverCard.Root openDelay={100} closeDelay={300}>
               <HoverCard.Trigger>
                 <span className="cursor-default">Resources</span>
@@ -102,7 +102,7 @@ export default function Header() {
                       <a className="text-sm">Instant Challenge Resources</a>
                     </Link>
                   </li>
-                  {/* <li className="py-2">
+                  <li className="py-2">
                     <Link href="/resources/coaches">
                       <a className="text-sm">Coaches</a>
                     </Link>
@@ -111,11 +111,11 @@ export default function Header() {
                     <Link href="/resources/faq">
                       <a className="text-sm">FAQ</a>
                     </Link>
-                  </li> */}
+                  </li>
                 </ul>
               </HoverCard.Content>
             </HoverCard.Root>
-          </li>
+          </li> */}
 
           <li>
             <Link href="/past-olympiads">
@@ -195,7 +195,7 @@ export default function Header() {
                     </Link>
                   </li> */}
 
-                  <li className="border-b border-gray-900">
+                  {/* <li className="border-b border-gray-900">
                     <Accordion.Root type="single" collapsible>
                       <Accordion.Item value="item-1">
                         <Accordion.Trigger className="flex items-center justify-between w-full text-left menu-link">
@@ -231,7 +231,7 @@ export default function Header() {
                         </Accordion.Content>
                       </Accordion.Item>
                     </Accordion.Root>
-                  </li>
+                  </li> */}
 
                   <li>
                     <Link href="/past-olympiads">
