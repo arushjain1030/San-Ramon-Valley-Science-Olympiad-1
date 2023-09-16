@@ -23,7 +23,7 @@ export default function BoardOfOfficers() {
         <p className="text-lg">The board that makes SRVSO possible.</p>
       </div>
       <div className="space-y-5">
-        {/* <div className="p-2 text-white rounded bg-lime-800">
+        <div className="p-2 text-white rounded bg-lime-800">
           <h3>
             {' '}
             <b>Alagu Subramanian</b>
@@ -41,7 +41,7 @@ export default function BoardOfOfficers() {
             been with the SRVSO since its beginning as our founder and currently
             serves as the Chairman of our Board of Directors.{' '}
           </p>
-        </div> */}
+        </div>
 
         <h2 className="pt-10"> Executive Sector </h2>
 
@@ -323,9 +323,12 @@ export default function BoardOfOfficers() {
         </div>
 
         <div className="flex items-center text-white">
-          <img className="h-40 mt-4" src="/images/officers/noPicture.png" />
+          <img className="h-40 mt-4" src="/images/officers/caden.png" />
           <p className="p-5">
-            Caden is ...
+          Caden Chang is a senior at Dougherty Valley High School. He is an
+          aspiring aerospace engineer with an interest in helping the community
+          develop an interest in STEM subjects. This is Caden's first year as
+          an officer for the Science Olympiad.
           </p>
         </div>
       </div>
