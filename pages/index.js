@@ -21,12 +21,11 @@ export default function Home() {
       </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
       <Link href="https://forms.gle/fWSC8Cdnfadqgv9Q7">
-      <a>
-        
-         <Button className="mx-auto mt-20 text-lg">
+        <a>
+          <Button className="mx-auto mt-20 text-lg">
             Register for The SRVSO INFO NIGHT!
           </Button>
-      </a>
+        </a>
       </Link>
       <div className="flex max-w-3xl mx-auto mt-20 gap-x-3">
         <div className="w-3 bg-green-600" />

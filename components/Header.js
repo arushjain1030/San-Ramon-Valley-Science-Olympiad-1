@@ -35,6 +35,11 @@ export default function Header() {
               <a>Home</a>
             </Link>
           </li>
+          <li>
+            <Link href="/register-now">
+              <a>Info Night Registration</a>
+            </Link>
+          </li>
           {/* <li>
             <Link href="/events">
               <a>Events</a>
@@ -161,6 +166,11 @@ export default function Header() {
                   <li className="border-b border-gray-900">
                     <Link href="/">
                       <a className="menu-link">Home</a>
+                    </Link>
+                  </li>
+                  <li className="border-b border-gray-900">
+                    <Link href="/register-now">
+                      <a className="menu-link">Info Night Registration</a>
                     </Link>
                   </li>
                   {/* <li className="border-b border-gray-900">
