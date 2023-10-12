@@ -11,7 +11,7 @@ export default function InfoNight() {
         <title>Info Night Resources — SRVSO</title>
         <meta
           name="description"
-          content="Here's where you can find all the relevant resources for SRVSO's Info Night 2022-23"
+          content="Here's where you can find all the relevant resources for SRVSO's Info Night 2023-24"
         />
       </Head>
 
@@ -19,7 +19,7 @@ export default function InfoNight() {
         <h2 className="mb-4">Info Night</h2>
         <p className="text-lg">
           Here's where you can find all the relevant resources for SRVSO's Info
-          Night 2022-23
+          Night 2023-24
         </p>
       </div>
 
@@ -35,7 +35,7 @@ export default function InfoNight() {
             allowFullScreen
           />
           <a
-            href="https://docs.google.com/presentation/d/14TjB08xJupVYL2cfz9fUXnKDu9RP18IQSiAnPCPI_gc/edit?usp=sharing"
+            href="https://docs.google.com/presentation/d/1b8GOmrND2k6Jh-6QVbiIQ8lgFhnygPXFhaRAWAxcNnU/edit?usp=sharing"
             target="_blank"
             className="mt-2 text-sm text-center underline"
             rel="noopener noreferrer"
@@ -52,13 +52,13 @@ export default function InfoNight() {
         <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
           <iframe
             title="SRVSO Information Release Form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdMl1wUgRXq5LkJJIl2r0SyB0k-uhXJpNM0Dcx7WOTAghGZng/viewform?embedded=true"
+            src="https://forms.gle/ykD5CWiWULEaM8k56"
             marginHeight="0"
             marginWidth="0"
             className="flex-grow"
           />
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdMl1wUgRXq5LkJJIl2r0SyB0k-uhXJpNM0Dcx7WOTAghGZng/viewform?embedded=true"
+            href="https://forms.gle/ykD5CWiWULEaM8k56"
             target="_blank"
             className="mt-2 text-sm text-center underline"
             rel="noopener noreferrer"
@@ -67,7 +67,29 @@ export default function InfoNight() {
           </a>
         </section>
       </div>
-      <h3 className="mt-6 text-lg">Info Night Recorded Presentation</h3>
+
+      <h3 className="mt-20 text-lg">
+        Parent Contact Information for Team Formation
+      </h3>
+      <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
+        <iframe
+          title="SRVSO Information Release Form"
+          src="https://docs.google.com/spreadsheets/d/1uihydRKrtBFDlUipMiURkISMFA5py4Xi4oyVYDhEQxM/edit#gid=1121203746"
+          marginHeight="0"
+          marginWidth="0"
+          className="flex-grow"
+        />
+        <a
+          href="https://docs.google.com/spreadsheets/d/1uihydRKrtBFDlUipMiURkISMFA5py4Xi4oyVYDhEQxM/edit#gid=1121203746"
+          target="_blank"
+          className="mt-2 text-sm text-center underline"
+          rel="noopener noreferrer"
+        >
+          External link
+        </a>
+      </section>
+
+      {/* <h3 className="mt-6 text-lg">Info Night Recorded Presentation</h3>
       <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
         <iframe
           title="Results"
@@ -85,7 +107,7 @@ export default function InfoNight() {
         >
           External link
         </a>
-      </div>
+      </div> */}
 
       {/* <div className="mb-12">
         <h2 className="mb-4">2021 Olympiad</h2>
