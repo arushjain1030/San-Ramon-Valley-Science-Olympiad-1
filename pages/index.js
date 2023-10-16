@@ -20,10 +20,10 @@ export default function Home() {
         San Ramon Valley Science Olympiad
       </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
-      <Link href="https://forms.gle/fWSC8Cdnfadqgv9Q7">
+      <Link href="/register-now">
         <a>
           <Button className="mx-auto mt-20 text-lg">
-            Register for The SRVSO INFO NIGHT!
+            TEAM REGISTRATION FOR THE SRVSO OLYMPIAD OPEN NOW!
           </Button>
         </a>
       </Link>

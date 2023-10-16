@@ -24,25 +24,6 @@ export default function InfoNight() {
       </div>
 
       <div className="mb-12">
-        <h3 className="mt-6 text-lg">Slideshow</h3>
-        <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
-          <iframe
-            title="Results"
-            src="/documents/infonight.pdf"
-            className="flex-grow"
-            frameBorder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowFullScreen
-          />
-          <a
-            href="https://docs.google.com/presentation/d/1b8GOmrND2k6Jh-6QVbiIQ8lgFhnygPXFhaRAWAxcNnU/edit?usp=sharing"
-            target="_blank"
-            className="mt-2 text-sm text-center underline"
-            rel="noopener noreferrer"
-          >
-            External link
-          </a>
-        </div>
         {/* <h2 className="mb-4">2022 Olympiad</h2>
         <p className="mb-4 text-lg">
           The 4th annual SRVSO was held at Windemere Ranch Middle School in
@@ -73,7 +54,7 @@ export default function InfoNight() {
       </h3>
       <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
         <iframe
-          title="SRVSO Information Release Form"
+          title="SRVSO Team Formation Contact Formation"
           src="https://docs.google.com/spreadsheets/d/1uihydRKrtBFDlUipMiURkISMFA5py4Xi4oyVYDhEQxM/edit#gid=1121203746"
           marginHeight="0"
           marginWidth="0"
@@ -89,25 +70,44 @@ export default function InfoNight() {
         </a>
       </section>
 
-      {/* <h3 className="mt-6 text-lg">Info Night Recorded Presentation</h3>
+      <h3 className="mt-6 text-lg">Info Night Recorded Presentation</h3>
       <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
         <iframe
-          title="Results"
-          src="/documents/recinfonight.mp4"
+          title="Info Night Recorded Presentation"
+          src="https://drive.google.com/file/d/1z7sJcvTXpfHcOIHW10L062fSBUYHiADE/view?t=9s"
           className="flex-grow"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
         />
         <a
-          href="/documents/recinfonight.mp4"
+          href="https://drive.google.com/file/d/1z7sJcvTXpfHcOIHW10L062fSBUYHiADE/view?t=9s"
           target="_blank"
           className="mt-2 text-sm text-center underline"
           rel="noopener noreferrer"
         >
           External link
         </a>
-      </div> */}
+      </div>
+      <h3 className="mt-6 text-lg">Slideshow</h3>
+      <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
+        <iframe
+          title="Info Night Slideshow"
+          src="/documents/infonight.pdf"
+          className="flex-grow"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+        />
+        <a
+          href="https://docs.google.com/presentation/d/1b8GOmrND2k6Jh-6QVbiIQ8lgFhnygPXFhaRAWAxcNnU/edit?usp=sharing"
+          target="_blank"
+          className="mt-2 text-sm text-center underline"
+          rel="noopener noreferrer"
+        >
+          External link
+        </a>
+      </div>
 
       {/* <div className="mb-12">
         <h2 className="mb-4">2021 Olympiad</h2>
