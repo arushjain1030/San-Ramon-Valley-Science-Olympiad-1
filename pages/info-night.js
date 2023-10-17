@@ -16,7 +16,7 @@ export default function InfoNight() {
       </Head>
 
       <div className="mb-12">
-        <h2 className="mb-4">Info Night</h2>
+        <h2 className="mb-4">Info Night Resources</h2>
         <p className="text-lg">
           Here's where you can find all the relevant resources for SRVSO's Info
           Night 2023-24
@@ -29,7 +29,16 @@ export default function InfoNight() {
           The 4th annual SRVSO was held at Windemere Ranch Middle School in
           April 2022.
         </p> */}
-        <h3 className="mt-20 text-lg">Information Release Form</h3>
+        <h3 className="mt-6 text-2xl font-bold">Watch the Info Night</h3>
+        <a
+          href="https://drive.google.com/file/d/1z7sJcvTXpfHcOIHW10L062fSBUYHiADE/view?t=9s"
+          target="_blank"
+          className="mt-2 text-lg text-center underline"
+          rel="noopener noreferrer"
+        >
+          Click here to Watch the Info Night
+        </a>
+        <h3 className="mt-12 text-lg">Information Release Form</h3>
         <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
           <iframe
             title="SRVSO Information Release Form"
@@ -70,7 +79,7 @@ export default function InfoNight() {
         </a>
       </section>
 
-      <h3 className="mt-6 text-lg">Info Night Recorded Presentation</h3>
+      {/* <h3 className="mt-6 text-lg">Info Night Recorded Presentation</h3>
       <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
         <iframe
           title="Info Night Recorded Presentation"
@@ -88,7 +97,7 @@ export default function InfoNight() {
         >
           External link
         </a>
-      </div>
+      </div> */}
       <h3 className="mt-6 text-lg">Slideshow</h3>
       <div className="flex flex-col w-full mt-2 overflow-hidden h-96">
         <iframe

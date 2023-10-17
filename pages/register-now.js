@@ -11,7 +11,7 @@ export default function RegisterNow() {
         />
       </Head>
       <div className="mb-12">
-        <h2 className="mb-4">2023-24 SRVSO Info Night Registration</h2>
+        <h2 className="mb-4">2023-24 SRVSO Olympiad Team Registration</h2>
         <p className="text-lg">
           This page contains vital information about registering for the
           2023-2024 SRVSO Olympiad
@@ -43,18 +43,21 @@ export default function RegisterNow() {
         Note: Only Team Coaches Fill Out This Form
       </h3>
       <h3 className="mt-6 text-lg">
-        Fill Out This Form To Register for the Olympiad
+        Fill Out This Form To Register Your Team for the Olympiad
+      </h3>
+      <h3 className="text-md">
+        If there is an error, please use the external link
       </h3>
       <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
         <iframe
           title="SRVSO Registration Form"
-          src="https://forms.gle/fNs7TAL6BeFaCGeT7"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdfSv39af7Y6XBphr27Gh6EhQp2jMn_rna0z_tcBz8Aflpp8g/viewform"
           marginHeight="0"
           marginWidth="0"
           className="flex-grow"
         />
         <a
-          href="https://forms.gle/fNs7TAL6BeFaCGeT7"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdfSv39af7Y6XBphr27Gh6EhQp2jMn_rna0z_tcBz8Aflpp8g/viewform"
           target="_blank"
           className="mt-2 text-sm text-center underline"
           rel="noopener noreferrer"
