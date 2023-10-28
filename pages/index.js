@@ -5,6 +5,8 @@ import Button from '@components/Button';
 import { GiBookCover, GiHumanPyramid } from 'react-icons/gi';
 import { IoPeopleCircle } from 'react-icons/io5';
 import Carousel from 'nuka-carousel';
+import sponsors from './sponsors';
+import Sponsors from './sponsors';
 
 export default function Home() {
   return (
@@ -133,6 +135,8 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <Sponsors />
     </>
   );
 }
