@@ -13,7 +13,7 @@ const Sponsors = () => {
   return (
     <section className="py-8 text-white bg-black">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="mb-4 text-3xl font-semibold">Our Sponsor</h2>
+        <h2 className="mb-4 text-3xl font-semibold">Our Sponsors</h2>
         {sponsorData.map((sponsor, index) => (
           <a
             key={index}
