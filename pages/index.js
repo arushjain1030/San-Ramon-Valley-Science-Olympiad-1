@@ -22,13 +22,13 @@ export default function Home() {
         San Ramon Valley Science Olympiad
       </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
-      <Link href="/register-now">
+      {/* <Link href="/register-now">
         <a>
           <Button className="mx-auto mt-20 text-lg">
             TEAM REGISTRATION FOR THE SRVSO OLYMPIAD OPEN NOW!
           </Button>
         </a>
-      </Link>
+      </Link> */}
       <div className="flex max-w-3xl mx-auto mt-20 gap-x-3">
         <div className="w-3 bg-green-600" />
         <div>
