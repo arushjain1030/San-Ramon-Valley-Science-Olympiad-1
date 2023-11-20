@@ -22,6 +22,11 @@ export default function Home() {
         San Ramon Valley Science Olympiad
       </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
+
+      <h1 className="mt-12 text-2xl text-center">
+        SRVSO Coach Seminar - 12/9 at 5 PM! <br /> Zoom Information Sent To
+        Coaches
+      </h1>
       {/* <Link href="/register-now">
         <a>
           <Button className="mx-auto mt-20 text-lg">
