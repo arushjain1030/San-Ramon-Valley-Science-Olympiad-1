@@ -35,6 +35,11 @@ export default function Header() {
               <a>Home</a>
             </Link>
           </li>
+          <li>
+            <Link href="/resources">
+              <a>Resources</a>
+            </Link>
+          </li>
 
           {/* <li>
             <Link href="/events">
@@ -162,6 +167,11 @@ export default function Header() {
                   <li className="border-b border-gray-900">
                     <Link href="/">
                       <a className="menu-link">Home</a>
+                    </Link>
+                  </li>
+                  <li className="border-b border-gray-900">
+                    <Link href="/resources">
+                      <a className="menu-link">Resources</a>
                     </Link>
                   </li>
 
