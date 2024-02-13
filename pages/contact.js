@@ -15,24 +15,18 @@ export default function Contact() {
         <p className="text-lg">
           Ask questions about the olympiad and get in touch with the team.
         </p>
+        <p className="mt-6 text-lg">
+          For general inquiries, you can reach us at{' '}
+          <a href="mailto:srvso2020@gmail.com" className="underline">
+            srvso2020@gmail.com
+          </a>
+          .
+        </p>
+        <p className="mt-5 text-lg">
+          To receive updates via Remind, text <strong>@srvsoco</strong> to{' '}
+          <strong>81010</strong>.
+        </p>
       </div>
-      <section className="flex flex-col w-full px-1 py-6 overflow-hidden bg-gray-200 rounded-md h-96">
-        <iframe
-          title="SRVSO Contact Form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdMl1wUgRXq5LkJJIl2r0SyB0k-uhXJpNM0Dcx7WOTAghGZng/viewform?embedded=true"
-          marginHeight="0"
-          marginWidth="0"
-          className="flex-grow"
-        />
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfOoND17uRMjH3uPnuSHqGGLfs9Qj5FIN83VZdj9L-N9BVIZw/viewform?embedded=true"
-          target="_blank"
-          className="mt-2 text-sm text-center underline"
-          rel="noopener noreferrer"
-        >
-          External link
-        </a>
-      </section>
     </>
   );
 }

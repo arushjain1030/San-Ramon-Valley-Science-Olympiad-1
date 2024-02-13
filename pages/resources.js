@@ -122,6 +122,10 @@ const InfoNight = () => {
               title="Flutterball"
               url="https://docs.google.com/document/d/1TH7vwsHvxVmkWS1cX_vXxpSmwvVY9qgiLTBhS70BYko/edit?usp=sharing"
             />
+            <Resource
+              title="Ring That Bell"
+              url="https://docs.google.com/document/d/1vw46Tx20i91Y4lOs_H4aDc_pibbaHlvvNNO_v_bD-tk/edit?usp=sharing"
+            />
           </Dropdown>
         </tbody>
       </table>
