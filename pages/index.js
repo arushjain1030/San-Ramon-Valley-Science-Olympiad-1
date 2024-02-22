@@ -23,6 +23,11 @@ export default function Home() {
       </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>
 
+      <p className="mt-4 text-xl text-center">
+        Pre-Olympiad Logistics Meeting for Coaches on Monday, March 4th at 7:00
+        PM via Zoom. More information to come soon through email.
+      </p>
+
       {/* <Link href="/register-now">
         <a>
           <Button className="mx-auto mt-20 text-lg">
