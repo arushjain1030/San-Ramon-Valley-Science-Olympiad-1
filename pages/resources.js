@@ -96,6 +96,10 @@ const InfoNight = () => {
               title="Build Binder Layout"
               url="https://docs.google.com/document/d/156RDs3zBXIMM_Jo1zJhWP-U9FNh9ep3KpehBtnjqoIQ/edit?usp=sharing"
             />
+            <Resource
+              title="Ongoing Build Event Revisions Document"
+              url="https://docs.google.com/document/d/1qV_YtQ_7fSj3qGfSaASM06K58hQjQBH77Fjya2IqFXA/edit?usp=sharing"
+            />
           </Dropdown>
 
           <Dropdown
