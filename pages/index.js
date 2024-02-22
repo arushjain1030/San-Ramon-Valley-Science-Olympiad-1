@@ -18,7 +18,7 @@ export default function Home() {
           content="SRVSO provides students with the chance to explore the world of STEM in a competitive setting. Science Olympiad prepares the young generation for success in future years of middle school, high school, and beyond."
         />
       </Head>
-      <h1 className="mt-16 text-l heading">
+      <h1 className="mt-16 text-white text-l heading">
         San Ramon Valley Science Olympiad
       </h1>
       <p className="mt-6 text-2xl text-center">est. 2018</p>

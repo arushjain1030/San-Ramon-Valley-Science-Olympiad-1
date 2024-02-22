@@ -68,7 +68,7 @@
 
   .heading {
     @apply text-8xl bg-clip-text text-transparent text-center lg:text-7xl sm:text-6xl;
-    background-image: url("https://media.gettyimages.com/vectors/abstract-green-technology-background-vector-id180873888");
+    //background-image: url("https://media.gettyimages.com/vectors/abstract-green-technology-background-vector-id180873888");
   }
 
   .menu-link {
