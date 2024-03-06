@@ -74,6 +74,14 @@ const InfoNight = () => {
             onClick={() => handleDropdownChange('coachSeminars')}
           >
             <Resource
+              title="Pre-Olympiad Logistics Meeting Recording"
+              url="https://www.youtube.com/watch?v=2omM8sFg0Kw"
+            />
+            <Resource
+              title="Pre-Olympiad Logistics Meeting Slideshow"
+              url="https://docs.google.com/presentation/d/1g3bWrwyQNWq7gw3EU-xfPjL-Gy1K8QBXVM6cqtkhESM/edit?usp=sharing"
+            />
+            <Resource
               title="Coach Seminar Recording"
               url="https://youtu.be/a3S1uAecDCw?start=0"
             />
@@ -99,6 +107,10 @@ const InfoNight = () => {
             <Resource
               title="Ongoing Build Event Revisions Document"
               url="https://docs.google.com/document/d/1qV_YtQ_7fSj3qGfSaASM06K58hQjQBH77Fjya2IqFXA/edit?usp=sharing"
+            />
+            <Resource
+              title="Build Event Walkthrough Steps for Day of Olympiad"
+              url="https://docs.google.com/document/d/1WsptWVnh0FRFZYNQLForBxoROTSXk9qQP8W-ANPlI2o/edit?usp=sharing"
             />
           </Dropdown>
 
@@ -129,6 +141,10 @@ const InfoNight = () => {
             <Resource
               title="Ring That Bell"
               url="https://docs.google.com/document/d/1vw46Tx20i91Y4lOs_H4aDc_pibbaHlvvNNO_v_bD-tk/edit?usp=sharing"
+            />
+            <Resource
+              title="Instant Challenge Walkthrough Steps for Day of Olympiad"
+              url="https://docs.google.com/document/d/1UOUfzzVi8kCTbTzJTMQ0yFvyljY4PtOesS808cEQNBE/edit?usp=sharing"
             />
           </Dropdown>
         </tbody>

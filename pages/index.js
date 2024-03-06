@@ -24,8 +24,8 @@ export default function Home() {
       <p className="mt-6 text-2xl text-center">est. 2018</p>
 
       <p className="mt-4 text-xl text-center">
-        Pre-Olympiad Logistics Meeting for Coaches on Monday, March 4th at 7:00
-        PM via Zoom. More information to come soon through email.
+        The 2023-24 SRVSO Olympiad will take place on March 18th from 8:00 AM -
+        6:00 PM at Windemere Ranch Middle School.
       </p>
 
       {/* <Link href="/register-now">
