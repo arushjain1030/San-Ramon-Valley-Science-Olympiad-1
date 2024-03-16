@@ -27,6 +27,17 @@ export default function Home() {
         The 2023-24 SRVSO Olympiad will take place on March 16th from 8:00 AM -
         6:00 PM at Windemere Ranch Middle School.
       </p>
+      <p className="mt-4 text-xl text-center">
+        <Link href="https://drive.google.com/file/d/1Kw_bNn_K5RXRp2Lh9QDmBHMNgViccjCu/view?usp=sharing">
+          <a
+            className="block mt-4 text-center text-blue-500 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            2024 SRVSO Brochure
+          </a>
+        </Link>
+      </p>
 
       {/* <Link href="/register-now">
         <a>
