@@ -187,7 +187,7 @@ export default function BoardOfOfficers() {
             help young kids discover their passion, and hopes to inspire their
             future works. This is her second year at SRVSO, and her current
             position is Theory Officer. In the past, she has served as a Theory
-            Event Officer and a Intern.
+            Event Officer and an Intern.
           </p>
         </div>
 
