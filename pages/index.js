@@ -39,13 +39,13 @@ export default function Home() {
         </Link>
       </p> */}
 
-      {/* <Link href="/register-now">
+      <Link href="https://forms.gle/7ZDVxBTh8GuP2qwm7">
         <a>
           <Button className="mx-auto mt-20 text-lg">
-            TEAM REGISTRATION FOR THE SRVSO OLYMPIAD OPEN NOW!
+            Register for The SRVSO INFO NIGHT!
           </Button>
         </a>
-      </Link> */}
+      </Link>
       <div className="flex max-w-3xl mx-auto mt-20 gap-x-3">
         <div className="w-3 bg-green-600" />
         <div>
