@@ -42,7 +42,7 @@ export default function Home() {
       <Link href="https://forms.gle/7ZDVxBTh8GuP2qwm7">
         <a>
           <Button className="mx-auto mt-20 text-lg">
-            Register for The SRVSO INFO NIGHT!
+            Click Here to sign up for The SRVSO INFO NIGHT!
           </Button>
         </a>
       </Link>
