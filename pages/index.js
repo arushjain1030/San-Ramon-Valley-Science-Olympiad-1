@@ -39,10 +39,10 @@ export default function Home() {
         </Link>
       </p> */}
 
-      <Link href="https://forms.gle/7ZDVxBTh8GuP2qwm7">
+      <Link href="/register-now">
         <a>
           <Button className="mx-auto mt-20 text-lg">
-            Click Here to sign up for The SRVSO INFO NIGHT!
+            TEAM REGISTRATION FOR THE SRVSO OLYMPIAD OPEN NOW!
           </Button>
         </a>
       </Link>

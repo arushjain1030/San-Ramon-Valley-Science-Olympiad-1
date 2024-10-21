@@ -35,7 +35,16 @@ export default function Header() {
               <a>Home</a>
             </Link>
           </li>
-
+          <li>
+            <Link href="/register-now">
+              <a>Team Registration</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/info-night">
+              <a>Info Night Resources</a>
+            </Link>
+          </li>
           <li>
             <Link href="/past-olympiads">
               <a>Past Olympiads</a>
@@ -82,7 +91,16 @@ export default function Header() {
                       <a className="menu-link">Home</a>
                     </Link>
                   </li>
-
+                  <li className="border-b border-gray-900">
+                    <Link href="/register-now">
+                      <a className="menu-link">Team Registration</a>
+                    </Link>
+                  </li>
+                  <li className="border-b border-gray-900">
+                    <Link href="/info-night">
+                      <a className="menu-link">Info Night Resources</a>
+                    </Link>
+                  </li>
                   <li className="border-b border-gray-900">
                     <Link href="/past-olympiads">
                       <a className="menu-link">Past Olympiads</a>

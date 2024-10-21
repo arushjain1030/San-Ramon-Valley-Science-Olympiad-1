@@ -11,7 +11,7 @@ export default function InfoNight() {
         <title>Info Night Resources — SRVSO</title>
         <meta
           name="description"
-          content="Here's where you can find all the relevant resources for SRVSO's Info Night 2023-24"
+          content="Here's where you can find all the relevant resources for SRVSO's Info Night 2024-25"
         />
       </Head>
 
@@ -19,36 +19,40 @@ export default function InfoNight() {
         <h2 className="mb-4">Info Night Resources</h2>
         <p className="text-lg">
           Here's where you can find all the relevant resources for SRVSO's Info
-          Night 2023-24
+          Night 2024-25
         </p>
       </div>
 
       <div className="mb-12">
-        {/* <h2 className="mb-4">2022 Olympiad</h2>
-        <p className="mb-4 text-lg">
-          The 4th annual SRVSO was held at Windemere Ranch Middle School in
-          April 2022.
-        </p> */}
-        <h3 className="mt-6 text-2xl font-bold">Watch the Info Night</h3>
-        <a
-          href="https://drive.google.com/file/d/1z7sJcvTXpfHcOIHW10L062fSBUYHiADE/view?t=9s"
-          target="_blank"
-          className="mt-2 text-lg text-center underline"
-          rel="noopener noreferrer"
-        >
-          Click here to Watch the Info Night
-        </a>
-        <h3 className="mt-12 text-lg">Information Release Form</h3>
+        <h3 className="mt-12 text-lg">Watcn the Info Night</h3>
         <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
           <iframe
-            title="SRVSO Information Release Form"
-            src="https://forms.gle/ykD5CWiWULEaM8k56"
+            title="2024-25 SRVSO Information Night Recording"
+            src="https://www.youtube.com/watch?v=Tz9fI4Hps2A"
             marginHeight="0"
             marginWidth="0"
             className="flex-grow"
           />
           <a
-            href="https://forms.gle/ykD5CWiWULEaM8k56"
+            href="https://www.youtube.com/watch?v=Tz9fI4Hps2A"
+            target="_blank"
+            className="mt-2 text-sm text-center underline"
+            rel="noopener noreferrer"
+          >
+            External link
+          </a>
+        </section>
+        <h3 className="mt-12 text-lg">Information Release Form</h3>
+        <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
+          <iframe
+            title="SRVSO Information Release Form"
+            src="https://forms.gle/uBdRqqcxD8AywDmf7"
+            marginHeight="0"
+            marginWidth="0"
+            className="flex-grow"
+          />
+          <a
+            href="https://forms.gle/uBdRqqcxD8AywDmf7"
             target="_blank"
             className="mt-2 text-sm text-center underline"
             rel="noopener noreferrer"
@@ -64,13 +68,13 @@ export default function InfoNight() {
       <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
         <iframe
           title="SRVSO Team Formation Contact Formation"
-          src="https://docs.google.com/spreadsheets/d/1uihydRKrtBFDlUipMiURkISMFA5py4Xi4oyVYDhEQxM/edit#gid=1121203746"
+          src="https://docs.google.com/spreadsheets/d/1u3vmKALth45a85bgfN-raZk2TpffiMCJI8lyiD5FkIw/edit?usp=sharing"
           marginHeight="0"
           marginWidth="0"
           className="flex-grow"
         />
         <a
-          href="https://docs.google.com/spreadsheets/d/1uihydRKrtBFDlUipMiURkISMFA5py4Xi4oyVYDhEQxM/edit#gid=1121203746"
+          href="https://docs.google.com/spreadsheets/d/1u3vmKALth45a85bgfN-raZk2TpffiMCJI8lyiD5FkIw/edit?usp=sharing"
           target="_blank"
           className="mt-2 text-sm text-center underline"
           rel="noopener noreferrer"
@@ -109,7 +113,7 @@ export default function InfoNight() {
           allowFullScreen
         />
         <a
-          href="https://docs.google.com/presentation/d/1b8GOmrND2k6Jh-6QVbiIQ8lgFhnygPXFhaRAWAxcNnU/edit?usp=sharing"
+          href="https://docs.google.com/presentation/d/1u0ImtXyGUCtY4TgiTp3uoRCniqyiZRM3_piJR_v027k/edit?usp=sharing"
           target="_blank"
           className="mt-2 text-sm text-center underline"
           rel="noopener noreferrer"
