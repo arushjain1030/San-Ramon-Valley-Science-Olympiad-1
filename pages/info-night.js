@@ -24,10 +24,8 @@ export default function InfoNight() {
       </div>
 
       <div className="mb-12">
-        <h3 className="mt-12 text-lg">Watcn the Info Night</h3>
-        <section className="flex flex-col w-full px-1 overflow-hidden bg-gray-200 rounded-md py-7 h-96">
-          <iframe
-            title="2024-25 SRVSO Information Night Recording"
+        <h3 className="mt-12 text-lg">Watch the Info Night</h3>
+        <section cght Recording"
             src="https://www.youtube.com/watch?v=Tz9fI4Hps2A"
             marginHeight="0"
             marginWidth="0"
