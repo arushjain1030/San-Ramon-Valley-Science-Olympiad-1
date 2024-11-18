@@ -23,7 +23,7 @@ export default function BoardOfOfficers() {
         <p className="text-lg">The board that makes SRVSO possible.</p>
       </div>
       <div className="space-y-5">
-        <div className="p-2 text-white rounded bg-lime-800">
+        {/* <div className="p-2 text-white rounded bg-lime-800">
           <h3>
             {' '}
             <b>Alagu Subramanian</b>
@@ -43,16 +43,16 @@ export default function BoardOfOfficers() {
             been with the SRVSO since its beginning as our founder and currently
             serves as the Chairman of our Board of Directors.{' '}
           </p>
-        </div>
+        </div> */}
 
-        <h2 className="pt-10"> Executive Sector </h2>
+        <h2 className="pt-0"> Executive Sector </h2>
 
         <div className="p-2 text-white rounded bg-lime-800">
           <h3>
             {' '}
             <b>Sundar Subramanian</b>
           </h3>
-          <p>Co-Executive Director</p>
+          <p>Co-Executive Director & Founding Member</p>
         </div>
 
         <div className="flex items-center text-white">

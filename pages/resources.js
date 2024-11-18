@@ -51,14 +51,14 @@ const InfoNight = () => {
         <title> Relevant Resources — SRVSO</title>
         <meta
           name="description"
-          content="Here's where you can find all the relevant resources for SRVSO 2023-24"
+          content="Here's where you can find all the relevant resources for SRVSO 2024-25"
         />
       </Head>
 
       <div className="mb-12">
         <h2 className="mb-4">Resources</h2>
         <p className="text-lg">
-          Here's where you can find all the relevant resources for SRVSO 2023-24
+          Here's where you can find all the relevant resources for SRVSO 2024-25
         </p>
         <p className="mt-7 text-md">
           Please note that SRVSO reserves the right to make changes to these
@@ -74,20 +74,12 @@ const InfoNight = () => {
             onClick={() => handleDropdownChange('coachSeminars')}
           >
             <Resource
-              title="Pre-Olympiad Logistics Meeting Recording"
-              url="https://www.youtube.com/watch?v=2omM8sFg0Kw"
-            />
-            <Resource
-              title="Pre-Olympiad Logistics Meeting Slideshow"
-              url="https://docs.google.com/presentation/d/1g3bWrwyQNWq7gw3EU-xfPjL-Gy1K8QBXVM6cqtkhESM/edit?usp=sharing"
-            />
-            <Resource
               title="Coach Seminar Recording"
-              url="https://youtu.be/a3S1uAecDCw?start=0"
+              url="https://youtu.be/VC91kNpkWfA"
             />
             <Resource
               title="Coach Seminar Slideshow"
-              url="https://docs.google.com/presentation/d/1u4MfIuJXKpeNIvC4qVA6ec1dvpyN-XPjLLpySHa2_44/edit?usp=sharing"
+              url="https://docs.google.com/presentation/d/1vMHRZzEu2xw9pe_a0qhr1TNiGAybyhoHaUJM7crbpFQ/edit#slide=id.p"
             />
           </Dropdown>
 
@@ -98,19 +90,11 @@ const InfoNight = () => {
           >
             <Resource
               title="Build Event Procedures"
-              url="https://docs.google.com/document/d/1Dq27ksp3ssEQrFe00rZLx3--q2VPGesD52tOQxSiV-c/edit?usp=sharing"
+              url="https://docs.google.com/document/d/1s0Uae24bHKJWMPrjrvEMrV7Eecj2zAQyOo1GljKF5kY/edit?tab=t.0"
             />
             <Resource
               title="Build Binder Layout"
-              url="https://docs.google.com/document/d/156RDs3zBXIMM_Jo1zJhWP-U9FNh9ep3KpehBtnjqoIQ/edit?usp=sharing"
-            />
-            <Resource
-              title="Ongoing Build Event Revisions Document"
-              url="https://docs.google.com/document/d/1qV_YtQ_7fSj3qGfSaASM06K58hQjQBH77Fjya2IqFXA/edit?usp=sharing"
-            />
-            <Resource
-              title="Build Event Walkthrough Steps for Day of Olympiad"
-              url="https://docs.google.com/document/d/1WsptWVnh0FRFZYNQLForBxoROTSXk9qQP8W-ANPlI2o/edit?usp=sharing"
+              url="https://docs.google.com/document/d/1E71PVyiMQ9WHKBvtvKV_0KG4rQ_j-5bBO93WSM815Nw/edit?tab=t.0"
             />
           </Dropdown>
 
@@ -120,8 +104,8 @@ const InfoNight = () => {
             onClick={() => handleDropdownChange('theoryWorkUps')}
           >
             <Resource
-              title="Theory Work Ups 2023-24"
-              url="https://docs.google.com/document/d/1WfQSRBK3WtowQqfmGwmbq3BZ1dawqYzmjUX-FbjHz1s/edit?usp=sharing"
+              title="Theory Work Ups 2024-25"
+              url="https://docs.google.com/document/d/1eIpQWulA_ZYRrrUqRTUVxcaDBs_aiKndI68_6tp2fNA/edit?tab=t.0"
             />
           </Dropdown>
 
@@ -131,20 +115,8 @@ const InfoNight = () => {
             onClick={() => handleDropdownChange('challenges')}
           >
             <Resource
-              title="Instant Challenge"
-              url="https://docs.google.com/document/d/1Jek9plxE4Q8C4N9cHGVvsaH51FfZcoc02QiXuYdc-Dc/edit?usp=sharing"
-            />
-            <Resource
-              title="Flutterball"
-              url="https://docs.google.com/document/d/1TH7vwsHvxVmkWS1cX_vXxpSmwvVY9qgiLTBhS70BYko/edit?usp=sharing"
-            />
-            <Resource
-              title="Ring That Bell"
-              url="https://docs.google.com/document/d/1vw46Tx20i91Y4lOs_H4aDc_pibbaHlvvNNO_v_bD-tk/edit?usp=sharing"
-            />
-            <Resource
-              title="Instant Challenge Walkthrough Steps for Day of Olympiad"
-              url="https://docs.google.com/document/d/1UOUfzzVi8kCTbTzJTMQ0yFvyljY4PtOesS808cEQNBE/edit?usp=sharing"
+              title="Tower of Terror Practice Event"
+              url="https://docs.google.com/document/d/1Q_Lsb5fLW63MvTs22X2RCS4PCN6bQNwYw5ZiPzoifyg/edit?tab=t.0"
             />
           </Dropdown>
         </tbody>
