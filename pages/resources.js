@@ -118,6 +118,10 @@ const InfoNight = () => {
               title="Tower of Terror Practice Event"
               url="https://docs.google.com/document/d/1Q_Lsb5fLW63MvTs22X2RCS4PCN6bQNwYw5ZiPzoifyg/edit?tab=t.0"
             />
+            <Resource
+              title="Float-A-Boat Practice Event"
+              url="https://docs.google.com/document/d/1DabNoRNTxIBtJioa0DIcG9x4dF1_BiK0uvx4Wl2YRBU/edit?tab=t.0"
+            />
           </Dropdown>
         </tbody>
       </table>
