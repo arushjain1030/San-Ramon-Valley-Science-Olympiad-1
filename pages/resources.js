@@ -82,7 +82,16 @@ const InfoNight = () => {
               url="https://docs.google.com/presentation/d/1vMHRZzEu2xw9pe_a0qhr1TNiGAybyhoHaUJM7crbpFQ/edit#slide=id.p"
             />
           </Dropdown>
-
+          <Dropdown
+            title="General Olympiad Resources"
+            isOpen={isDropdownOpen('generalResources')}
+            onClick={() => handleDropdownChange('generalResources')}
+          >
+            <Resource
+              title="Ongoing Revisions Document"
+              url="https://docs.google.com/document/d/12X718Gz_cq1JlPig9cZaIK0j2u7zxO1e_3hoFl-sg0I/edit?usp=sharing"
+            />
+          </Dropdown>
           <Dropdown
             title="Build Event Resources"
             isOpen={isDropdownOpen('build')}
