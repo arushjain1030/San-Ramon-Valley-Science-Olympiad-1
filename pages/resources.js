@@ -74,6 +74,14 @@ const InfoNight = () => {
             onClick={() => handleDropdownChange('coachSeminars')}
           >
             <Resource
+              title="FAQ & Coach Updates Meeting Recording"
+              url="https://www.youtube.com/watch?v=ltlNetiM0HM"
+            />
+            <Resource
+              title="FAQ & Coach Updates Meeting Slideshow"
+              url="https://docs.google.com/presentation/d/17x8bMlJ0ITuIRCLMIGEZjknErmJUfs0UdBYluDEtlX0/edit?usp=sharing"
+            />
+            <Resource
               title="Coach Seminar Recording"
               url="https://youtu.be/VC91kNpkWfA"
             />
