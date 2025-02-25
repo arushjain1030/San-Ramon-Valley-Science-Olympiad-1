@@ -113,6 +113,10 @@ const InfoNight = () => {
               title="Build Binder Layout"
               url="https://docs.google.com/document/d/1E71PVyiMQ9WHKBvtvKV_0KG4rQ_j-5bBO93WSM815Nw/edit?tab=t.0"
             />
+            <Resource
+              title="Example Build Binder"
+              url="https://docs.google.com/document/d/10kYKd-bEw8MuJ4XK4QHmtZlG248d6M1sRcNQw5wjkgs/edit?usp=sharing"
+            />
           </Dropdown>
 
           <Dropdown
