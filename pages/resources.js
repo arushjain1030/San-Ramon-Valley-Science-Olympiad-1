@@ -74,6 +74,14 @@ const InfoNight = () => {
             onClick={() => handleDropdownChange('coachSeminars')}
           >
             <Resource
+              title="Pre-Olympiad Logistics Meeting Recording"
+              url="https://www.youtube.com/watch?v=2AUfNh94DHA"
+            />
+            <Resource
+              title="Pre-Olympiad Logistics Meeting Slideshow"
+              url="https://docs.google.com/presentation/d/1bTBVHahOFCrlyrDC6aEQbnn_26N5nkg58GOX8u-rn2A/edit?usp=sharing"
+            />
+            <Resource
               title="FAQ & Coach Updates Meeting Recording"
               url="https://www.youtube.com/watch?v=ltlNetiM0HM"
             />
@@ -99,6 +107,10 @@ const InfoNight = () => {
               title="Ongoing Revisions Document"
               url="https://docs.google.com/document/d/12X718Gz_cq1JlPig9cZaIK0j2u7zxO1e_3hoFl-sg0I/edit?usp=sharing"
             />
+            <Resource
+              title="Preliminary Event Overview & Master Team Schedule"
+              url="https://docs.google.com/spreadsheets/d/1qdNMBuYarUpvKMX_aguzJqUfVO5J_G_44J1NGZ-tq44/edit?usp=sharing"
+            />
           </Dropdown>
           <Dropdown
             title="Build Event Resources"
@@ -108,6 +120,10 @@ const InfoNight = () => {
             <Resource
               title="Build Event Procedures"
               url="https://docs.google.com/document/d/1s0Uae24bHKJWMPrjrvEMrV7Eecj2zAQyOo1GljKF5kY/edit?tab=t.0"
+            />
+            <Resource
+              title="Build Event Walkthrough Steps"
+              url="https://docs.google.com/document/d/18Q0kbrqp9fwWVCaF3JMzeMEwoA-5GVUb3ZhWtYex_Uc/edit?usp=sharing"
             />
             <Resource
               title="Build Binder Layout"
@@ -135,6 +151,10 @@ const InfoNight = () => {
             isOpen={isDropdownOpen('challenges')}
             onClick={() => handleDropdownChange('challenges')}
           >
+            <Resource
+              title="Instant Challenge Walkthrough Steps"
+              url="https://docs.google.com/document/d/1Q_Lsb5fLW63MvTs22X2RCS4PCN6bQNwYw5ZiPzoifyg/edit?tab=t.0"
+            />
             <Resource
               title="Tower of Terror Practice Event"
               url="https://docs.google.com/document/d/1Q_Lsb5fLW63MvTs22X2RCS4PCN6bQNwYw5ZiPzoifyg/edit?tab=t.0"
