@@ -89,14 +89,14 @@ const InfoNight = () => {
               title="FAQ & Coach Updates Meeting Slideshow"
               url="https://docs.google.com/presentation/d/17x8bMlJ0ITuIRCLMIGEZjknErmJUfs0UdBYluDEtlX0/edit?usp=sharing"
             />
-            <Resource
+            {/* <Resource
               title="Coach Seminar Recording"
               url="https://youtu.be/VC91kNpkWfA"
             />
             <Resource
               title="Coach Seminar Slideshow"
               url="https://docs.google.com/presentation/d/1vMHRZzEu2xw9pe_a0qhr1TNiGAybyhoHaUJM7crbpFQ/edit#slide=id.p"
-            />
+            /> */}
           </Dropdown>
           <Dropdown
             title="General Olympiad Resources"
@@ -153,7 +153,7 @@ const InfoNight = () => {
           >
             <Resource
               title="Instant Challenge Walkthrough Steps"
-              url="https://docs.google.com/document/d/1Q_Lsb5fLW63MvTs22X2RCS4PCN6bQNwYw5ZiPzoifyg/edit?tab=t.0"
+              url="https://docs.google.com/document/d/1NtcIdsybGCIAGmxrScbx5fcs6MN_ZbqvvTklz2M-oKI/edit?tab=t.0"
             />
             <Resource
               title="Tower of Terror Practice Event"
