@@ -35,11 +35,11 @@ export default function Header() {
               <a>Home</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/resources">
               <a>Resources</a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/past-olympiads">
               <a>Past Olympiads</a>
@@ -86,11 +86,11 @@ export default function Header() {
                       <a className="menu-link">Home</a>
                     </Link>
                   </li>
-                  <li className="border-b border-gray-900">
+                  {/* <li className="border-b border-gray-900">
                     <Link href="/resources">
                       <a className="menu-link">Resources</a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="border-b border-gray-900">
                     <Link href="/past-olympiads">
                       <a className="menu-link">Past Olympiads</a>
