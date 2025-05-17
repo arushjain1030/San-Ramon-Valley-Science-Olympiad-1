@@ -25,13 +25,6 @@ export default function Home() {
 
   
 
-      {/* <Link href="https://drive.google.com/file/d/1ZsDxSCHf9rr1JEX77iWQtXbkgVak3I8S/view?usp=sharing">
-        <a>
-          <Button className="mx-auto mt-20 text-lg">
-            Click Here to View the 2025 SRVSO Brochure
-          </Button>
-        </a>
-      </Link> */}
       <div className="flex max-w-3xl mx-auto mt-20 gap-x-3">
         <div className="w-3 bg-green-600" />
         <div>
